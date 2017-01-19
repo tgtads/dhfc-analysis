@@ -1,0 +1,6 @@
+# https://github.com/thampiman/reverse-geocoder
+# pip install scipy numpy reverse_geocoder
+# prepare this before use!
+# in bash - assuming the venv is 'test', modify the built-in data:
+# cp test/lib/python2.7/site-packages/reverse_geocoder/rg_cities1000.{csv,old.csv} 
+# head -n 1 test/lib/python2.7/site-packages/reverse_geocoder/rg_cities1000.old.csv > test/lib/python2.7/site-packages/reverse_geocoder/rg_cities1000.csv

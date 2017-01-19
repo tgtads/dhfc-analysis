@@ -1,0 +1,39 @@
+WU_return,ID,Icon
+Clear,800,1
+Drizzle,301,9
+Fog,741,50
+Funnel Cloud,210,11
+Haze,721,50
+Heavy Drizzle,302,9
+Heavy Fog,741,50
+Heavy Rain,502,10
+Heavy Rain Showers,522,9
+Light Drizzle,300,9
+Light Fog,741,50
+Light Freezing Fog,741,50
+Light Hail,906,13
+Light Haze,721,50
+Light Rain,500,10
+Light Rain Showers,500,10
+Light Small Hail Showers,511,13
+Light Snow,600,13
+Light Snow Showers,600,13
+Light Thunderstorms and Rain,210,11
+Low Drifting Snow,600,13
+Mist,701,50
+Mostly Cloudy,802,3
+Overcast,804,4
+Partial Fog,741,50
+Partly Cloudy,801,2
+Patches of Fog,741,50
+Rain,501,10
+Rain Showers,521,9
+Scattered Clouds,802,3
+Shallow Fog,741,50
+snow,601,13
+Snow,601,13
+Snow Grains,601,13
+Thunderstorm,200,11
+Thunderstorms and Rain,201,11
+Unknown,0,blank
+Unknown Precipitation,501,10

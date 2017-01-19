@@ -1,0 +1,488 @@
+eUid,startDateTime,homeTeam,awayTeam,homeScore,awayScore,location,latitude,longitude,nAttendees,duration,competition,formation
+1-2194296,2016-12-06T19:45:00+0000,Dulwich Hamlet,Staines Town,,,Dulwich Hamlet,,,,,The Ryman Football League - Premier Division,
+1-2194343,2016-12-17T15:00:00+0000,Dulwich Hamlet,Tonbridge Angels,,,Dulwich Hamlet,,,,,The Ryman Football League - Premier Division,
+1-2194264,2016-12-19T19:45:00+0000,Kingstonian,Dulwich Hamlet,,,Kingstonian,,,,,The Ryman Football League - Premier Division,
+1-2194357,2016-12-27T15:00:00+0000,Grays Athletic,Dulwich Hamlet,,,Grays Athletic,,,,,The Ryman Football League - Premier Division,
+1-2194308,2016-11-29T19:45:00+0000,Dulwich Hamlet,Metropolitan Police,3,3,Champion Hill Stadium,51.461170197,-0.08399,725.0,90.0,The Ryman Football League - Premier Division,
+1-2194255,2016-11-05T15:00:00+0000,Needham Market,Dulwich Hamlet,1,1,Bloomfields,52.15058136,1.04554069,334.0,90.0,The Ryman Football League - Premier Division,4321
+1-2194271,2016-11-19T15:00:00+0000,Dulwich Hamlet,Worthing,4,1,Champion Hill Stadium,51.461170197,-0.08399,2032.0,90.0,The Ryman Football League - Premier Division,352
+1-2194285,2016-11-22T19:45:00+0000,Harrow Borough,Dulwich Hamlet,0,2,Earlsmead,51.557941437,-0.371820003,205.0,93.0,The Ryman Football League - Premier Division,352
+1-2194181,2016-11-01T19:45:00+0000,Staines Town,Dulwich Hamlet,2,0,Wheatsheaf Park,51.419681549,-0.502080023,228.0,90.0,The Ryman Football League - Premier Division,4321
+2-38853,2016-11-12T15:00:00+0000,Dulwich Hamlet,Chesham United,4,0,Champion Hill Stadium,51.461170197,-0.08399,716.0,91.0,The FA Trophy 16-17,
+2-39201,2016-11-26T15:00:00+0000,Winchester City,Dulwich Hamlet,0,1,The Denplan City Ground,51.072029114,-1.309010148,319.0,91.0,The FA Trophy 16-17,4321
+2-38112,2016-10-29T15:00:00+0100,Lowestoft Town,Dulwich Hamlet,1,2,"Crown Meadow, Lowestoft Town FC",52.480190277,1.74763,428.0,90.0,The FA Trophy 16-17,4321
+2-37142,2016-10-25T19:45:00+0100,Greenwich Borough,Dulwich Hamlet,1,2,DGS Marine Stadium,51.450313568,0.034755599,213.0,90.0,The Alan Turvey Trophy sponsored by Robert Dyas 16-17,4321
+1-2194235,2016-10-22T15:00:00+0100,Dulwich Hamlet,AFC Sudbury,2,0,Champion Hill Stadium,51.461170197,-0.08399,1683.0,90.0,The Ryman Football League - Premier Division,4321
+1-2194224,2016-10-18T19:45:00+0100,Dulwich Hamlet,Harlow Town,3,1,Champion Hill Stadium,51.461170197,-0.08399,750.0,90.0,The Ryman Football League - Premier Division,
+1-2194132,2016-10-04T19:45:00+0100,Lowestoft Town,Dulwich Hamlet,0,3,"Crown Meadow, Lowestoft Town FC",52.480190277,1.74763,413.0,90.0,The Ryman Football League - Premier Division,4321
+1-2194216,2016-10-15T15:00:00+0100,Leatherhead,Dulwich Hamlet,2,2,Leatherhead Football Club,0.0,0.0,426.0,90.0,The Ryman Football League - Premier Division,
+1-2194200,2016-10-01T15:00:00+0100,Enfield Town,Dulwich Hamlet,2,2,"Queen Elizabeth II Stadium, Enfield",51.659328461,-0.063840002,467.0,90.0,The Ryman Football League - Premier Division,4321
+1-2194187,2016-10-08T15:00:00+0100,Dulwich Hamlet,Bognor Regis Town,1,3,Champion Hill Stadium,51.461170197,-0.08399,2217.0,90.0,The Ryman Football League - Premier Division,433
+1-2194164,2016-09-27T19:45:00+0100,Dulwich Hamlet,Harrow Borough,1,4,Champion Hill Stadium,51.461170197,-0.08399,711.0,90.0,The Ryman Football League - Premier Division,4321
+2-36812,2016-09-17T15:00:00+0100,Dulwich Hamlet,Hendon,0,2,Champion Hill Stadium,51.461170197,-0.08399,822.0,90.0,The Emirates FA Cup 16-17,433
+1-2194152,2016-09-24T15:00:00+0100,Dulwich Hamlet,Folkestone Invicta,6,1,Champion Hill Stadium,51.461170197,-0.08399,1278.0,90.0,The Ryman Football League - Premier Division,
+2-35421,2016-09-13T19:45:00+0100,Dulwich Hamlet,Grays Athletic,4,0,Champion Hill Stadium,51.461170197,-0.08399,374.0,90.0,The Alan Turvey Trophy sponsored by Robert Dyas 16-17,4321
+2-36356,2016-09-03T15:00:00+0100,Pagham,Dulwich Hamlet,0,3,Pagham Football Club,50.778598785,-0.731811881,230.0,90.0,The Emirates FA Cup 16-17,4321
+1-2194115,2016-09-10T15:00:00+0100,Dulwich Hamlet,Burgess Hill Town,2,2,Champion Hill Stadium,51.461170197,-0.08399,1069.0,90.0,The Ryman Football League - Premier Division,4411
+1-2194144,2016-09-20T19:45:00+0100,Metropolitan Police,Dulwich Hamlet,1,1,Imber Court ,51.390369415,-0.351689994,188.0,91.0,The Ryman Football League - Premier Division,433
+1-2194091,2016-08-27T15:00:00+0100,Dulwich Hamlet,Canvey Island,1,2,Champion Hill Stadium,51.461170197,-0.08399,768.0,91.0,The Ryman Football League - Premier Division,4132
+1-2194106,2016-08-29T15:00:00+0100,Hendon,Dulwich Hamlet,1,1,Silver Jubilee Park,51.576656342,-0.253978997,335.0,90.0,The Ryman Football League - Premier Division,4132
+1-2194082,2016-08-23T19:45:00+0100,Harlow Town,Dulwich Hamlet,1,2,Harlow Arena,51.770847321,0.068806097,328.0,91.0,The Ryman Football League - Premier Division,4132
+1-2194067,2016-08-20T15:00:00+0100,Dulwich Hamlet,Leiston,2,4,Champion Hill Stadium,51.461170197,-0.08399,845.0,90.0,The Ryman Football League - Premier Division,4132
+1-2194041,2016-08-13T15:00:00+0100,AFC Sudbury,Dulwich Hamlet,2,2,The Wardale Williams Stadium,52.04611969,0.71849978,401.0,90.0,The Ryman Football League - Premier Division,4132
+1-2194056,2016-08-16T19:45:00+0100,Dulwich Hamlet,Enfield Town,2,1,Champion Hill Stadium,51.461170197,-0.08399,843.0,90.0,The Ryman Football League - Premier Division,4321
+0-3334629,2016-08-05T19:45:00+0100,Tooting & Mitcham United,Dulwich Hamlet Football Club,1,2,The KNK Stadium,51.393642426,-0.171891496,,,Friendly,
+0-3356486,2016-08-02T19:45:00+0100,Carshalton Athletic,Dulwich Hamlet Football Club,2,1,"War Memorial Sports Ground, Carshalton",51.369678497,-0.171849996,,,Friendly,
+0-3334628,2016-07-30T15:00:00+0100,Hampton & Richmond Borough,Dulwich Hamlet Football Club,2,3,"Accord Beveree Stadium, Hampton",51.41519165,-0.363310009,,,Friendly,
+0-3334627,2016-07-26T19:45:00+0100,Dulwich Hamlet Football Club,Crystal Palace,2,2,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-3334626,2016-07-23T15:00:00+0100,Dulwich Hamlet Football Club,Millwall,1,2,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-3334625,2016-07-19T19:45:00+0100,Dulwich Hamlet Football Club,Charlton Athletic,1,2,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-3334623,2016-07-14T19:45:00+0100,Erith & Belvedere,Dulwich Hamlet Football Club,0,5,Erith & Belvedere,51.460327148,0.116541699,,,Friendly,
+0-3334624,2016-07-16T15:00:00+0100,Lewes,Dulwich Hamlet Football Club,2,5,"The Dripping Pan, Lewes",50.869041443,0.01225,,,Friendly,
+0-3338149,2016-07-12T19:45:00+0100,Dulwich Hamlet Football Club,Norwich City,0,0,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-3334621,2016-07-09T12:00:00+0100,Dulwich Hamlet Football Club,Bromley,4,2,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-3330557,2016-05-08T14:00:00+0100,Dulwich Hamlet Football Club,Dulwich Hamlet Class of 92,2,1,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-3321841,2016-05-07T15:00:00+0100,Dulwich Hamlet Club & Staff XI,Dulwich Hamlet Supporters,15,1,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+2-31750,2016-05-02T15:00:00+0100,East Thurrock United,Dulwich Hamlet,3,1,"Rookery Hill, Corringham",51.522338867,0.461659998,1661.0,90.0,The Ryman League Play Offs 15-16,433
+2-31744,2016-04-28T19:45:00+0100,Bognor Regis Town,Dulwich Hamlet,0,1,"Nyewood Lane, Bognor Regis",50.786960602,-0.690159976,1403.0,93.0,The Ryman League Play Offs 15-16,433
+1-1607670,2016-04-23T15:00:00+0100,Needham Market,Dulwich Hamlet,2,1,Bloomfields,52.15058136,1.04554069,502.0,94.0,The Ryman Football League - Premier Division,433
+1-1607541,2016-04-12T19:45:00+0100,Brentwood Town,Dulwich Hamlet,1,2,The Brentwood Centre,51.633945465,0.300640792,222.0,93.0,The Ryman Football League - Premier Division,433
+1-1607651,2016-04-16T15:00:00+0100,Dulwich Hamlet,Lewes,2,1,Champion Hill Stadium,51.461170197,-0.08399,2467.0,90.0,The Ryman Football League - Premier Division,433
+1-1607644,2016-04-09T15:00:00+0100,Leiston,Dulwich Hamlet,1,1,"Victory Road, Leiston",52.204391479,1.571409941,205.0,91.0,The Ryman Football League - Premier Division,433
+1-1607627,2016-04-02T15:00:00+0100,Dulwich Hamlet,Bognor Regis Town,2,0,Champion Hill Stadium,51.461170197,-0.08399,1914.0,91.0,The Ryman Football League - Premier Division,433
+1-1607616,2016-03-28T15:00:00+0100,Dulwich Hamlet,Tonbridge Angels,2,1,Champion Hill Stadium,51.461170197,-0.08399,1434.0,90.0,The Ryman Football League - Premier Division,433
+2-33247,2016-03-22T19:45:00+0000,Tooting and Mitcham United,Dulwich Hamlet,3,0,The KNK Stadium,51.393642426,-0.171891496,480.0,95.0,London County Cup 15-16,433
+1-1607603,2016-03-26T15:00:00+0000,Enfield Town,Dulwich Hamlet,2,2,"Queen Elizabeth II Stadium, Enfield",51.659328461,-0.063840002,614.0,92.0,The Ryman Football League - Premier Division,433
+1-1607592,2016-03-19T15:00:00+0000,Dulwich Hamlet,Burgess Hill Town,1,1,Champion Hill Stadium,51.461170197,-0.08399,1452.0,90.0,The Ryman Football League - Premier Division,433
+1-1607485,2016-03-15T19:45:00+0000,Dulwich Hamlet,Wingate & Finchley,2,1,Champion Hill Stadium,51.461170197,-0.08399,584.0,90.0,The Ryman Football League - Premier Division,433
+0-3246720,2016-03-09T19:45:00+0000,Dulwich Hamlet Football Club,FC Assyria,3,1,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+1-1607577,2016-03-12T15:00:00+0000,Billericay Town,Dulwich Hamlet,4,1,"New Lodge, Billericay",51.621749878,0.40327999,424.0,91.0,The Ryman Football League - Premier Division,433
+1-1607575,2016-03-05T15:00:00+0000,Wingate & Finchley,Dulwich Hamlet,1,1,"Harry Abrahams Stadium, Finchley",51.606838226,-0.171580002,331.0,90.0,The Ryman Football League - Premier Division,4321
+0-3261014,2016-02-08T19:45:00+0000,Phoenix Sports,Dulwich Hamlet Football Club,C,C,Phoenix Sports Club,51.458580017,0.169945315,,,Friendly,
+1-1607557,2016-02-27T15:00:00+0000,Dulwich Hamlet,East Thurrock United,2,2,Champion Hill Stadium,51.461170197,-0.08399,1607.0,96.0,The Ryman Football League - Premier Division,4321
+2-32419,2016-02-23T19:45:00+0000,Dulwich Hamlet,London Bari,1,0,Champion Hill Stadium,51.461170197,-0.08399,223.0,90.0,London County Cup 15-16,4321
+1-1607427,2016-02-10T19:45:00+0000,Lewes,Dulwich Hamlet,3,1,"The Dripping Pan, Lewes",50.869041443,0.01225,424.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607533,2016-02-13T15:00:00+0000,Dulwich Hamlet,Farnborough,2,2,Champion Hill Stadium,51.461170197,-0.08399,1390.0,90.0,The Ryman Football League - Premier Division,433
+1-1607383,2016-02-02T19:45:00+0000,Staines Town,Dulwich Hamlet,1,3,Wheatsheaf Park,51.419681549,-0.502080023,260.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607527,2016-02-06T15:00:00+0000,VCD Athletic,Dulwich Hamlet,3,2,VCD Athletic Football Club,51.456043243,0.1712479,257.0,91.0,The Ryman Football League - Premier Division,4321
+1-1607509,2016-01-30T15:00:00+0000,Dulwich Hamlet,Harrow Borough,4,0,Champion Hill Stadium,51.461170197,-0.08399,2012.0,91.0,The Ryman Football League - Premier Division,4321
+1-1607494,2016-01-23T15:00:00+0000,East Thurrock United,Dulwich Hamlet,2,2,"Rookery Hill, Corringham",51.522338867,0.461659998,311.0,91.0,The Ryman Football League - Premier Division,4321
+2-31508,2016-01-16T15:00:00+0000,Dulwich Hamlet,Guiseley,1,2,Champion Hill Stadium,51.461170197,-0.08399,1949.0,91.0,The FA Trophy 15-16,4321
+1-1607468,2016-01-02T15:00:00+0000,Tonbridge Angels,Dulwich Hamlet,1,1,Tonbridge Angels FC,51.211402893,0.269922495,1095.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607472,2016-01-09T15:00:00+0000,Dulwich Hamlet,Enfield Town,2,0,Champion Hill Stadium,51.461170197,-0.08399,2249.0,90.0,The Ryman Football League - Premier Division,4321
+2-30895,2015-12-22T19:45:00+0000,Corinthian-Casuals,Dulwich Hamlet,1,4,King Georges Field,51.372180939,-0.287400007,130.0,90.0,London County Cup 15-16,4321
+2-31330,2015-12-12T15:00:00+0000,Bury Town,Dulwich Hamlet,1,2,"Ram Meadow, Bury St Edmunds",52.248901367,0.721059978,441.0,91.0,The FA Trophy 15-16,4321
+1-1607448,2015-12-26T15:00:00+0000,Dulwich Hamlet,Kingstonian,5,1,Champion Hill Stadium,51.461170197,-0.08399,1713.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607399,2015-12-15T19:45:00+0000,Dulwich Hamlet,Leiston,1,1,Champion Hill Stadium,51.461170197,-0.08399,617.0,91.0,The Ryman Football League - Premier Division,4321
+1-1607436,2015-12-19T15:00:00+0000,Grays Athletic,Dulwich Hamlet,1,2,"The Mill Field, Aveley",51.503318787,0.252079993,254.0,90.0166666667,The Ryman Football League - Premier Division,4321
+1-1607411,2015-12-05T15:00:00+0000,Dulwich Hamlet,Needham Market,0,1,Champion Hill Stadium,51.461170197,-0.08399,1547.0,90.0166666667,The Ryman Football League - Premier Division,4321
+2-30045,2015-12-01T19:45:00+0000,Dulwich Hamlet,Faversham Town,1,2,Champion Hill Stadium,51.461170197,-0.08399,372.0,91.0,The Alan Turvey Trophy sponsored by Robert Dyas 15-16,4321
+2-30872,2015-11-28T15:00:00+0000,Dulwich Hamlet,Margate,2,1,Champion Hill Stadium,51.461170197,-0.08399,1479.0,91.0,The FA Trophy 15-16,4321
+1-1607257,2015-11-24T19:45:00+0000,Harrow Borough,Dulwich Hamlet,1,0,Earlsmead,51.557941437,-0.371820003,207.0,90.0,The Ryman Football League - Premier Division,4321
+2-30489,2015-11-14T15:00:00+0000,Dulwich Hamlet,VCD Athletic,2,0,Champion Hill Stadium,51.461170197,-0.08399,795.0,91.0,The FA Trophy 15-16,4321
+2-28842,2015-11-03T19:45:00+0000,Dulwich Hamlet,Erith & Belvedere,4,0,Champion Hill Stadium,51.461170197,-0.08399,314.0,91.0,London County Cup 15-16,4321
+1-1607385,2015-11-21T15:00:00+0000,Bognor Regis Town,Dulwich Hamlet,2,3,"Nyewood Lane, Bognor Regis",50.786960602,-0.690159976,770.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607362,2015-11-07T15:00:00+0000,Dulwich Hamlet,Hendon,4,2,Champion Hill Stadium,51.461170197,-0.08399,1423.0,90.0,The Ryman Football League - Premier Division,4321
+2-29398,2015-10-31T15:00:00+0000,Harrow Borough,Dulwich Hamlet,0,3,Earlsmead,51.557941437,-0.371820003,185.0,91.0,The FA Trophy 15-16,4321
+1-1607305,2015-10-13T19:45:00+0100,Dulwich Hamlet,Metropolitan Police,1,2,Champion Hill Stadium,51.461170197,-0.08399,726.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607350,2015-10-27T19:45:00+0000,Dulwich Hamlet,Merstham,4,0,Champion Hill Stadium,51.461170197,-0.08399,869.0,91.0,The Ryman Football League - Premier Division,4321
+1-1607329,2015-10-20T19:45:00+0100,Hampton & Richmond Borough,Dulwich Hamlet,2,1,"Accord Beveree Stadium, Hampton",51.41519165,-0.363310009,442.0,91.0,The Ryman Football League - Premier Division,4321
+2-28424,2015-10-06T19:45:00+0100,Dulwich Hamlet,Staines Town,2,1,Champion Hill Stadium,51.461170197,-0.08399,224.0,90.0,The Alan Turvey Trophy sponsored by Robert Dyas 15-16,4321
+1-1607291,2015-10-10T15:00:00+0100,Farnborough,Dulwich Hamlet,1,4,The Rushmoor Community Stadium,51.310295105,-0.763002574,456.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607340,2015-10-24T15:00:00+0100,Canvey Island,Dulwich Hamlet,1,2,"Park Lane, Canvey Island",51.51651001,0.615530014,471.0,91.0,The Ryman Football League - Premier Division,4321
+1-1607317,2015-10-17T15:00:00+0100,Dulwich Hamlet,Brentwood Town,4,0,Champion Hill Stadium,51.461170197,-0.08399,1302.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607281,2015-10-03T15:00:00+0100,Dulwich Hamlet,VCD Athletic,5,2,Champion Hill Stadium,51.461170197,-0.08399,1961.0,90.0,The Ryman Football League - Premier Division,4321
+2-28918,2015-09-26T15:00:00+0100,Whitehawk,Dulwich Hamlet,4,2,"Whitehawk FC, The Enclosed Ground",50.821430206,-0.096239999,355.0,90.0,The Emirates FA Cup 15-16,4321
+2-28289,2015-09-12T15:00:00+0100,Hampton & Richmond Borough,Dulwich Hamlet,0,1,"Accord Beveree Stadium, Hampton",51.41519165,-0.363310009,404.0,90.0,The Emirates FA Cup 15-16,4321
+1-1607271,2015-09-29T19:45:00+0100,Metropolitan Police,Dulwich Hamlet,1,3,Imber Court ,51.390369415,-0.351689994,136.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607230,2015-09-19T15:00:00+0100,Burgess Hill Town,Dulwich Hamlet,3,2,Leylands Park,0.0,0.0,507.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607245,2015-09-22T19:45:00+0100,Dulwich Hamlet,Hampton & Richmond Borough,3,3,Champion Hill Stadium,51.461170197,-0.08399,555.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607221,2015-09-08T19:45:00+0100,Dulwich Hamlet,Leatherhead,1,0,Champion Hill Stadium,51.461170197,-0.08399,625.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607208,2015-09-05T15:00:00+0100,Dulwich Hamlet,Billericay Town,1,0,Champion Hill Stadium,51.461170197,-0.08399,1547.0,91.0,The Ryman Football League - Premier Division,433
+1-1607184,2015-08-29T15:00:00+0100,Dulwich Hamlet,Grays Athletic,1,1,Champion Hill Stadium,51.461170197,-0.08399,999.0,91.0,The Ryman Football League - Premier Division,4321
+1-1607198,2015-08-31T15:00:00+0100,Kingstonian,Dulwich Hamlet,0,3,"Kingsmeadow Stadium, Kingston-upon-Thames",51.404941559,-0.281949997,442.0,90.0,The Ryman Football League - Premier Division,4321
+0-2939309,2015-08-01T13:00:00+0100,Hayes and Yeading United,Dulwich Hamlet Football Club,1,2,The Warren,0.0,0.0,,,Friendly,
+2-27743,2015-08-18T19:45:00+0100,Dulwich Hamlet,Thamesmead Town,2,0,Champion Hill Stadium,51.461170197,-0.08399,245.0,90.0,The Alan Turvey Trophy sponsored by Robert Dyas 15-16,4321
+1-1607179,2015-08-26T19:45:00+0100,Leatherhead,Dulwich Hamlet,1,0,Leatherhead Football Club,0.0,0.0,,90.0,The Ryman Football League - Premier Division,4321
+1-1607151,2015-08-15T15:00:00+0100,Hendon,Dulwich Hamlet,1,1,Earlsmead,51.557941437,-0.371820003,268.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607140,2015-08-11T19:45:00+0100,Merstham,Dulwich Hamlet,0,2,Merstham Football Club,0.0,0.0,321.0,90.0,The Ryman Football League - Premier Division,4321
+1-1607122,2015-08-08T15:00:00+0100,Dulwich Hamlet,Canvey Island,3,0,Champion Hill Stadium,51.461170197,-0.08399,877.0,90.0166666667,The Ryman Football League - Premier Division,4321
+1-1607158,2015-08-22T15:00:00+0100,Dulwich Hamlet,Staines Town,1,2,Champion Hill Stadium,51.461170197,-0.08399,1024.0,90.0,The Ryman Football League - Premier Division,4321
+0-2920075,2015-07-25T15:00:00+0100,Whyteleafe,Dulwich Hamlet Football Club,4,2,Whyteleafe FC,51.304550171,-0.07999,,,Friendly,
+0-2920078,2015-07-28T19:45:00+0100,Chipstead,Dulwich Hamlet Football Club,C,C,The NRT Stadium,0.0,0.0,,,Friendly,
+0-2920079,2015-07-30T19:45:00+0100,Beckenham Town,Dulwich Hamlet Football Club,0,5,Eden Park Avenue,51.392478943,-0.028750001,,,Friendly,
+0-2971652,2015-07-16T19:30:00+0100,Erith & Belvedere,Dulwich Hamlet Football Club,3,2,Eden Park Avenue,51.392478943,-0.028750001,,,Friendly,
+0-2920073,2015-07-18T15:00:00+0100,Dulwich Hamlet Football Club,Charlton Athletic,2,3,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-2920074,2015-07-21T19:45:00+0100,Aveley,Dulwich Hamlet Football Club,0,4,"The Mill Field, Aveley",51.503318787,0.252079993,,,Friendly,
+0-2779330,2015-07-11T18:00:00+0100,Dulwich Hamlet Football Club,Altonaer Fußball-Club von 1893 e. V,3,5,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-2920071,2015-07-14T19:45:00+0100,Dulwich Hamlet Football Club,Dagenham and Redbridge,2,1,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-2920061,2015-07-08T19:45:00+0100,Dulwich Hamlet Football Club,Peterborough United,2,3,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-2899060,2015-05-10T14:00:00+0100,Dulwich Hamlet Football Club,Peckham Town,0,1,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+2-25858,2015-05-14T19:45:00+0100,Margate,Dulwich Hamlet,2,1,"Hartsdown Park, Margate",51.380081177,1.373890042,1073.0,90.0,The Ryman League Play Offs 14-15,4321
+1-1008905,2015-04-25T15:00:00+0100,Tonbridge Angels,Dulwich Hamlet,2,2,Tonbridge Angels,,,758.0,90.0,The Ryman Football League - Ryman Premier,4321
+1-1008885,2015-04-18T15:00:00+0100,Dulwich Hamlet,Maidstone United,0,0,Champion Hill Stadium,51.461170197,-0.08399,,90.0,The Ryman Football League - Ryman Premier,433
+1-1008862,2015-04-06T15:00:00+0100,Dulwich Hamlet,Enfield Town,2,1,Champion Hill Stadium,51.461170197,-0.08399,1204.0,90.0,The Ryman Football League - Ryman Premier,433
+1-1008875,2015-04-11T15:00:00+0100,Hendon,Dulwich Hamlet,2,2,Earlsmead,51.557941437,-0.371820003,376.0,90.0,The Ryman Football League - Ryman Premier,433
+1-1008858,2015-04-04T15:00:00+0100,Witham Town,Dulwich Hamlet,0,0,Witham Town,,,,90.0,The Ryman Football League - Ryman Premier,4321
+0-2863015,2015-03-11T19:30:00+0000,East Grinstead Town,Dulwich Hamlet Football Club,3,3,East Grinstead Town FC,51.131340027,0.002014141,,,Friendly,
+0-2863012,2015-03-10T19:30:00+0000,Dulwich Hamlet Football Club,Whitehawk,2,1,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+1-1008846,2015-03-28T13:00:00+0000,Wingate & Finchley,Dulwich Hamlet,3,0,"Harry Abrahams Stadium, Finchley",51.606838226,-0.171580002,,90.0,The Ryman Football League - Ryman Premier,433
+1-1008824,2015-03-21T15:00:00+0000,Dulwich Hamlet,East Thurrock United,3,3,Champion Hill Stadium,51.461170197,-0.08399,953.0,92.0,The Ryman Football League - Ryman Premier,4321
+1-1008811,2015-03-14T15:00:00+0000,AFC Hornchurch,Dulwich Hamlet,1,0,"The Stadium, Upminster",51.556419373,0.238309994,292.0,93.0,The Ryman Football League - Ryman Premier,
+1-1008800,2015-03-07T15:00:00+0000,Dulwich Hamlet,VCD Athletic,1,2,Champion Hill Stadium,51.461170197,-0.08399,1324.0,90.0,The Ryman Football League - Ryman Premier,
+0-2848601,2015-02-24T19:30:00+0000,Dulwich Hamlet Football Club,Chipstead,4,2,Dulwich Hamlet Football Club,,,,,Friendly,
+1-1008787,2015-02-28T15:00:00+0000,Bognor Regis Town,Dulwich Hamlet,4,0,"Nyewood Lane, Bognor Regis",50.786960602,-0.690159976,,90.0,The Ryman Football League - Ryman Premier,4321
+1-1008777,2015-02-21T15:00:00+0000,Dulwich Hamlet,Metropolitan Police,0,0,Champion Hill Stadium,51.461170197,-0.08399,,90.0,The Ryman Football League - Ryman Premier,
+0-2830819,2015-02-11T19:30:00+0000,Dulwich Hamlet Football Club,Stonewall Football Club,6,0,Dulwich Hamlet Football Club,,,,,Friendly,
+1-1008698,2015-02-18T19:45:00+0000,Lewes,Dulwich Hamlet,1,0,"The Dripping Pan, Lewes",50.869041443,0.01225,,90.0,The Ryman Football League - Ryman Premier,4321
+1-1008753,2015-02-07T15:00:00+0000,Dulwich Hamlet,Canvey Island,0,3,Champion Hill Stadium,51.461170197,-0.08399,,90.0,The Ryman Football League - Ryman Premier,4321
+1-1008764,2015-02-14T15:00:00+0000,Bury Town,Dulwich Hamlet,1,3,"Ram Meadow, Bury St Edmunds",52.248901367,0.721059978,342.0,90.0,The Ryman Football League - Ryman Premier,4321
+1-1008742,2015-01-31T15:00:00+0000,Dulwich Hamlet,Grays Athletic,2,0,Champion Hill Stadium,51.461170197,-0.08399,1047.0,90.0,The Ryman Football League - Ryman Premier,4321
+1-1008731,2015-01-24T15:00:00+0000,Hampton & Richmond Borough,Dulwich Hamlet,1,0,"Accord Beveree Stadium, Hampton",51.41519165,-0.363310009,,90.0,The Ryman Football League - Ryman Premier,4321
+1-1008669,2015-01-27T19:45:00+0000,Enfield Town,Dulwich Hamlet,0,1,"Queen Elizabeth II Stadium, Enfield",51.659328461,-0.063840002,389.0,90.0,The Ryman Football League - Ryman Premier,4321
+1-1008706,2015-01-10T15:00:00+0000,Dulwich Hamlet,Billericay Town,2,1,Champion Hill Stadium,51.461170197,-0.08399,1205.0,90.0,The Ryman Football League - Ryman Premier,4321
+1-1008722,2015-01-17T15:00:00+0000,Margate,Dulwich Hamlet,1,2,"Hartsdown Park, Margate",51.380081177,1.373890042,786.0,90.0,The Ryman Football League - Ryman Premier,4321
+1-1008646,2015-01-13T19:45:00+0000,Dulwich Hamlet,Leiston,1,2,Champion Hill Stadium,51.461170197,-0.08399,541.0,90.0,The Ryman Football League - Ryman Premier,4321
+1-1008682,2015-01-01T15:00:00+0000,Dulwich Hamlet,Leatherhead,4,1,Champion Hill Stadium,51.461170197,-0.08399,1163.0,90.0,The Ryman Football League - Ryman Premier,433
+1-1008597,2014-12-09T19:45:00+0000,Dulwich Hamlet,Tonbridge Angels,2,0,Champion Hill Stadium,51.461170197,-0.08399,421.0,90.0,The Ryman Football League - Ryman Premier,41212
+1-1008658,2014-12-20T15:00:00+0000,Dulwich Hamlet,Witham Town,1,0,Champion Hill Stadium,51.461170197,-0.08399,820.0,90.0,The Ryman Football League - Ryman Premier,4321
+2-23222,2014-12-02T19:45:00+0000,Dulwich Hamlet,Beckenham Town,0,1,Champion Hill Stadium,51.461170197,-0.08399,,90.0,London County Cup 14-15,
+1-1008641,2014-12-06T15:00:00+0000,Peacehaven & Telscombe,Dulwich Hamlet,0,1,Peacehaven & Telscombe,,,305.0,90.0,The Ryman Football League - Ryman Premier,
+1-1008622,2014-11-29T15:00:00+0000,Dulwich Hamlet,Kingstonian,2,1,Champion Hill Stadium,51.461170197,-0.08399,1027.0,90.0,The Ryman Football League - Ryman Premier,41212
+1-1008515,2014-11-25T19:45:00+0000,East Thurrock United,Dulwich Hamlet,2,2,"Rookery Hill, Corringham",51.522338867,0.461659998,176.0,90.0,The Ryman Football League - Ryman Premier,433
+1-1008612,2014-11-22T15:00:00+0000,Harrow Borough,Dulwich Hamlet,1,3,Earlsmead,51.557941437,-0.371820003,204.0,90.0,The Ryman Football League - Ryman Premier,433
+0-2754809,2014-11-19T19:45:00+0000,Fisher FC,Dulwich Hamlet Football Club,1,3,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+2-22651,2014-11-15T15:00:00+0000,Metropolitan Police,Dulwich Hamlet,2,0,Imber Court ,51.390369415,-0.351689994,,90.0,The FA Trophy 14-15,
+0-2740417,2014-11-09T13:00:00+0000,Dulwich Hamlet Football Club,Farnborough,1,2,Champion Hill Stadium,51.461170197,-0.08399,111.0,90.0,Friendly,433
+1-1008590,2014-11-12T19:45:00+0000,Maidstone United,Dulwich Hamlet,1,1,"The Gallagher Stadium, Maidstone",51.279560089,0.516309977,1664.0,90.0,The Ryman Football League - Ryman Premier,
+2-22210,2014-11-01T15:00:00+0000,Dulwich Hamlet,Chalfont St Peter,3,0,Champion Hill Stadium,51.461170197,-0.08399,433.0,90.0,The FA Trophy 14-15,433
+1-1008567,2014-10-18T15:00:00+0100,Metropolitan Police,Dulwich Hamlet,0,0,Imber Court ,51.390369415,-0.351689994,,90.0,The Ryman Football League - Ryman Premier,
+1-1008573,2014-10-25T15:00:00+0100,Dulwich Hamlet,Hendon,0,0,Champion Hill Stadium,51.461170197,-0.08399,,90.0,The Ryman Football League - Ryman Premier,433
+2-20700,2014-10-07T19:45:00+0100,Dulwich Hamlet,Thamesmead Town,1,0,Champion Hill Stadium,51.461170197,-0.08399,164.0,90.0,London County Cup 14-15,
+2-20624,2014-10-14T19:45:00+0100,Dulwich Hamlet,Walton & Hersham,2,2,Champion Hill Stadium,51.461170197,-0.08399,133.0,90.0,The Robert Dyas League Cup 14-15,
+1-1008549,2014-10-11T15:00:00+0100,Dulwich Hamlet,Bognor Regis Town,0,1,Champion Hill Stadium,51.461170197,-0.08399,,90.0,The Ryman Football League - Ryman Premier,433
+1-1008537,2014-10-04T15:00:00+0100,Canvey Island,Dulwich Hamlet,1,2,"Park Lane, Canvey Island",51.51651001,0.615530014,409.0,90.0,The Ryman Football League - Ryman Premier,
+1-1008500,2014-09-23T19:45:00+0100,Dulwich Hamlet,Wingate & Finchley,3,3,Champion Hill Stadium,51.461170197,-0.08399,514.0,90.0,The Ryman Football League - Ryman Premier,
+2-20805,2014-09-13T15:00:00+0100,Dulwich Hamlet,Worthing,0,3,Dulwich Hamlet,,,,90.0,The FA Cup 14-15,
+1-1008525,2014-09-30T19:45:00+0100,Dulwich Hamlet,Bury Town,3,0,Champion Hill Stadium,51.461170197,-0.08399,415.0,90.0,The Ryman Football League - Ryman Premier,
+1-1008485,2014-09-16T19:45:00+0100,VCD Athletic,Dulwich Hamlet,0,3,VCD Athletic,,,140.0,90.0,The Ryman Football League - Ryman Premier,
+1-1008488,2014-09-20T15:00:00+0100,Dulwich Hamlet,AFC Hornchurch,2,0,Champion Hill Stadium,51.461170197,-0.08399,708.0,90.0,The Ryman Football League - Ryman Premier,
+1-1008474,2014-09-10T19:45:00+0100,Grays Athletic,Dulwich Hamlet,1,0,"The Mill Field, Aveley",51.503318787,0.252079993,,90.0,The Ryman Football League - Ryman Premier,433
+1-1008454,2014-09-06T15:00:00+0100,Dulwich Hamlet,Hampton & Richmond Borough,2,2,Champion Hill Stadium,51.461170197,-0.08399,2856.0,90.0,The Ryman Football League - Ryman Premier,
+1-1008443,2014-09-02T19:45:00+0100,Dulwich Hamlet,Margate,2,1,Champion Hill Stadium,51.461170197,-0.08399,811.0,90.0,The Ryman Football League - Ryman Premier,
+1-1008427,2014-08-30T15:00:00+0100,Billericay Town,Dulwich Hamlet,2,1,"New Lodge, Billericay",51.621749878,0.40327999,345.0,90.0,The Ryman Football League - Ryman Premier,442
+1-1008421,2014-08-25T15:00:00+0100,Leatherhead,Dulwich Hamlet,2,0,Leatherhead,,,,90.0,The Ryman Football League - Ryman Premier,
+1-1008406,2014-08-23T15:00:00+0100,Dulwich Hamlet,Lewes,2,0,Champion Hill Stadium,51.461170197,-0.08399,763.0,90.0,The Ryman Football League - Ryman Premier,433
+1-1008395,2014-08-19T19:45:00+0100,Dulwich Hamlet,Peacehaven & Telscombe,3,1,Champion Hill Stadium,51.461170197,-0.08399,513.0,90.0,The Ryman Football League - Ryman Premier,433
+0-2480561,2014-08-02T15:00:00+0100,Whitehawk,Dulwich Hamlet,2,0,"Whitehawk FC, The Enclosed Ground",50.821430206,-0.096239999,,,Friendly,
+0-2419547,2014-08-05T19:45:00+0100,Dulwich Hamlet,Tooting & Mitcham Utd,3,3,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-2419546,2014-08-04T19:30:00+0100,Holmesdale,Dulwich Hamlet,0,4,Holmesdale FC,51.374008179,0.037439998,,,Friendly,
+1-1008386,2014-08-16T15:00:00+0100,Leiston,Dulwich Hamlet,0,2,"Victory Road, Leiston",52.204391479,1.571409941,258.0,90.0,The Ryman Football League - Ryman Premier,
+1-1008367,2014-08-11T19:45:00+0100,Kingstonian,Dulwich Hamlet,1,1,"Kingsmeadow Stadium, Kingston-upon-Thames",51.404941559,-0.281949997,464.0,90.0,The Ryman Football League - Ryman Premier,
+1-1008358,2014-08-09T15:00:00+0100,Dulwich Hamlet,Harrow Borough,3,2,Champion Hill Stadium,51.461170197,-0.08399,607.0,90.0,The Ryman Football League - Ryman Premier,433
+0-2401662,2014-07-30T19:45:00+0100,Sevenoaks Town,Dulwich Hamlet,2,2,Sevenoaks Town FC,51.290798187,0.201930001,,,Friendly,
+0-2407408,2014-07-29T19:45:00+0100,Dulwich Hamlet,Crystal Palace,2,3,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-2407409,2014-07-26T15:00:00+0100,Whyteleafe,Dulwich Hamlet,1,4,Whyteleafe FC,51.304550171,-0.07999,,,Friendly,
+0-2405170,2014-07-24T19:30:00+0100,Beckenham Town,Dulwich Hamlet,1,4,Eden Park Avenue,51.392478943,-0.028750001,,,Friendly,
+0-2412226,2014-07-14T19:00:00+0100,Dulwich Hamlet,Walton and Hersham,0,0,Goals Soccer Centre (Beckenham North),51.421291351,-0.030929999,,,Friendly,
+0-2419548,2014-07-12T15:00:00+0100,Dulwich Hamlet,Bromley,0,2,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-2453245,2014-07-15T19:45:00+0100,Dulwich Hamlet,Ebbsfleet United,0,1,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+1-795202,2014-04-26T15:00:00+0100,Dulwich Hamlet,Kingstonian,1,1,Champion Hill Stadium,51.461170197,-0.08399,1388.0,90.0,The Ryman Football League - Premier Division,442
+1-795045,2014-04-01T19:45:00+0100,Dulwich Hamlet,Bury Town,1,0,Champion Hill Stadium,51.461170197,-0.08399,477.0,90.0,The Ryman Football League - Premier Division,
+1-795193,2014-04-21T15:00:00+0100,Hampton & RB,Dulwich Hamlet,0,1,"Accord Beveree Stadium, Hampton",51.41519165,-0.363310009,505.0,90.0,The Ryman Football League - Premier Division,
+1-795163,2014-04-12T15:07:00+0100,Billericay Town,Dulwich Hamlet,2,0,"New Lodge, Billericay",51.621749878,0.40327999,,90.0,The Ryman Football League - Premier Division,
+1-795155,2014-04-05T15:00:00+0100,Dulwich Hamlet,Wingate & Finchley,4,2,Champion Hill Stadium,51.461170197,-0.08399,668.0,90.0,The Ryman Football League - Premier Division,
+1-795178,2014-04-19T15:00:00+0100,Dulwich Hamlet,Leiston,2,3,Champion Hill Stadium,51.461170197,-0.08399,710.0,90.0,The Ryman Football League - Premier Division,
+1-795130,2014-03-22T15:00:00+0000,Dulwich Hamlet,Enfield Town,2,2,Champion Hill Stadium,51.461170197,-0.08399,732.0,90.0,The Ryman Football League - Premier Division,
+1-795149,2014-03-29T15:00:00+0000,Wealdstone,Dulwich Hamlet,2,2,"Grosvenor Vale, Ruislip",51.569408417,-0.416599989,1151.0,90.0,The Ryman Football League - Premier Division,
+1-795031,2014-03-25T19:45:00+0000,AFC Hornchurch,Dulwich Hamlet,1,1,"The Stadium, Upminster",51.556419373,0.238309994,254.0,90.0,The Ryman Football League - Premier Division,
+1-795123,2014-03-15T15:00:00+0000,Maidstone United,Dulwich Hamlet,4,3,"The Gallagher Stadium, Maidstone",51.279560089,0.516309977,2296.0,90.0,The Ryman Football League - Premier Division,
+1-795107,2014-03-08T15:00:00+0000,Dulwich Hamlet,Bognor Regis Town,0,2,Champion Hill Stadium,51.461170197,-0.08399,,90.0,The Ryman Football League - Premier Division,
+1-794974,2014-03-04T19:45:00+0000,Dulwich Hamlet,Metropolitan Police,1,2,Champion Hill Stadium,51.461170197,-0.08399,537.0,90.0,The Ryman Football League - Premier Division,
+1-795098,2014-03-01T15:00:00+0000,Lewes,Dulwich Hamlet,2,0,"The Dripping Pan, Lewes",50.869041443,0.01225,,90.0,The Ryman Football League - Premier Division,
+1-794961,2014-02-25T19:45:00+0000,Carshalton Athletic,Dulwich Hamlet,0,4,"War Memorial Sports Ground, Carshalton",51.369678497,-0.171849996,277.0,90.0,The Ryman Football League - Premier Division,
+0-2212075,2014-02-18T19:45:00+0000,Dulwich Hamlet,Metropolitan Police,3,4,Champion Hill Stadium,51.461170197,-0.08399,138.0,90.0,Cup,
+1-795083,2014-02-22T15:00:00+0000,Dulwich Hamlet,East Thurrock United,3,0,Champion Hill Stadium,51.461170197,-0.08399,642.0,90.0,The Ryman Football League - Premier Division,
+1-795059,2014-02-11T19:45:00+0000,Dulwich Hamlet,Thamesmead Town,2,0,Champion Hill Stadium,51.461170197,-0.08399,488.0,90.0,The Ryman Football League - Premier Division,
+1-795070,2014-02-15T15:00:00+0000,Canvey Island,Dulwich Hamlet,2,1,"Park Lane, Canvey Island",51.51651001,0.615530014,341.0,90.0,The Ryman Football League - Premier Division,
+1-794817,2014-02-04T19:45:00+0000,East Thurrock United,Dulwich Hamlet,1,4,"Rookery Hill, Corringham",51.522338867,0.461659998,146.0,90.0,The Ryman Football League - Premier Division,
+1-795021,2014-01-25T15:00:00+0000,Dulwich Hamlet,Harrow Borough,3,2,Champion Hill Stadium,51.461170197,-0.08399,810.0,90.0,The Ryman Football League - Premier Division,
+1-795017,2014-01-21T19:45:00+0000,Margate,Dulwich Hamlet,2,4,"Hartsdown Park, Margate",51.380081177,1.373890042,242.0,93.0,The Ryman Football League - Premier Division,
+1-794994,2014-01-12T15:00:00+0000,Kingstonian,Dulwich Hamlet,2,1,"Kingsmeadow Stadium, Kingston-upon-Thames",51.404941559,-0.281949997,590.0,90.0,The Ryman Football League - Premier Division,
+1-794998,2014-01-18T15:00:00+0000,Dulwich Hamlet,Hampton & RB,2,2,Champion Hill Stadium,51.461170197,-0.08399,756.0,90.0,The Ryman Football League - Premier Division,
+1-794848,2014-01-07T19:45:00+0000,Leiston,Dulwich Hamlet,2,1,"Victory Road, Leiston",52.204391479,1.571409941,154.0,90.0,The Ryman Football League - Premier Division,
+1-794931,2013-12-21T15:00:00+0000,Lowestoft Town,Dulwich Hamlet,2,0,"Crown Meadow, Lowestoft Town FC",52.480190277,1.74763,,90.0,The Ryman Football League - Premier Division,
+1-794938,2013-12-26T15:00:00+0000,Dulwich Hamlet,Grays Athletic,3,2,Champion Hill Stadium,51.461170197,-0.08399,558.0,90.0,The Ryman Football League - Premier Division,
+1-794950,2013-12-28T15:00:00+0000,Cray Wanderers,Dulwich Hamlet,0,6,"The Courage Stadium, Bromley",51.389728546,0.020989999,334.0,90.0,The Ryman Football League - Premier Division,
+1-794867,2013-12-17T19:45:00+0000,Dulwich Hamlet,Maidstone United,2,0,Champion Hill Stadium,51.461170197,-0.08399,817.0,90.0,The Ryman Football League - Premier Division,
+0-2147022,2013-12-03T19:45:00+0000,Dulwich Hamlet,Hanwell Town,2,0,Champion Hill Stadium,51.461170197,-0.08399,75.0,90.0,Cup,
+1-794914,2013-12-14T15:00:00+0000,Dulwich Hamlet,Hendon,2,0,Champion Hill Stadium,51.461170197,-0.08399,551.0,90.0,The Ryman Football League - Premier Division,
+1-794910,2013-12-07T15:00:00+0000,Wingate & Finchley,Dulwich Hamlet,2,3,"Harry Abrahams Stadium, Finchley",51.606838226,-0.171580002,225.0,90.0,The Ryman Football League - Premier Division,
+2-15566,2013-11-26T19:45:00+0000,Cray Wanderers,Dulwich Hamlet,5,1,"The Courage Stadium, Bromley",51.389728546,0.020989999,69.0,90.0,The Robert Dyas League Cup 13-14,
+2-15877,2013-11-19T19:45:00+0000,Concord Rangers,Dulwich Hamlet,4,3,The Aspect Arena,51.512531281,0.575410008,156.0,120.0,The FA Trophy 13-14,
+2-15665,2013-11-16T15:00:00+0000,Dulwich Hamlet,Concord Rangers,1,1,Champion Hill Stadium,51.461170197,-0.08399,462.0,90.0,The FA Trophy 13-14,
+1-794891,2013-11-30T15:00:00+0000,Dulwich Hamlet,Wealdstone,1,4,Champion Hill Stadium,51.461170197,-0.08399,843.0,90.0,The Ryman Football League - Premier Division,
+1-794878,2013-11-23T15:00:00+0000,Enfield Town,Dulwich Hamlet,3,4,"Queen Elizabeth II Stadium, Enfield",51.659328461,-0.063840002,382.0,90.0,The Ryman Football League - Premier Division,
+2-15290,2013-11-02T15:00:00+0000,Dulwich Hamlet,Leatherhead,3,0,Champion Hill Stadium,51.461170197,-0.08399,296.0,90.0,The FA Trophy 13-14,
+1-794852,2013-11-09T15:00:00+0000,Bognor Regis Town,Dulwich Hamlet,4,2,"Nyewood Lane, Bognor Regis",50.786960602,-0.690159976,502.0,90.0,The Ryman Football League - Premier Division,
+2-13648,2013-10-29T19:45:00+0000,Dulwich Hamlet,Tooting & Mitcham United,1,0,Champion Hill Stadium,51.461170197,-0.08399,349.0,90.0,The Robert Dyas League Cup 13-14,
+2-14704,2013-10-12T15:00:00+0100,Hemel Hempstead Town,Dulwich Hamlet,3,1,Hemel Hempstead Town,,,,,The FA Cup 13-14,
+0-2101195,2013-10-14T19:45:00+0100,Dulwich Hamlet,Hendon,3,1,Champion Hill Stadium,51.461170197,-0.08399,157.0,90.0,Cup,
+2-13275,2013-10-19T15:00:00+0100,Dulwich Hamlet,Harrow Borough,2,1,Champion Hill Stadium,51.461170197,-0.08399,404.0,90.0,The FA Trophy 13-14,
+1-794830,2013-10-26T15:00:00+0100,Dulwich Hamlet,Billericay Town,2,1,Champion Hill Stadium,51.461170197,-0.08399,706.0,90.0,The Ryman Football League - Premier Division,
+1-794808,2013-10-05T15:00:00+0100,Dulwich Hamlet,Lewes,4,2,Champion Hill Stadium,51.461170197,-0.08399,712.0,90.0,The Ryman Football League - Premier Division,
+1-794793,2013-10-01T19:45:00+0100,Bury Town,Dulwich Hamlet,0,4,"Ram Meadow, Bury St Edmunds",52.248901367,0.721059978,273.0,90.0,The Ryman Football League - Premier Division,
+2-14374,2013-09-28T15:00:00+0100,Margate,Dulwich Hamlet,1,2,"Hartsdown Park, Margate",51.380081177,1.373890042,508.0,90.0,The FA Cup 13-14,
+0-1985938,2013-09-17T19:45:00+0100,Dulwich Hamlet,Faversham Town,3,1,Champion Hill Stadium,51.461170197,-0.08399,134.0,90.0,Cup,
+2-13187,2013-09-14T15:00:00+0100,Dulwich Hamlet,Shoreham,6,0,Champion Hill Stadium,51.461170197,-0.08399,341.0,90.0,The FA Cup 13-14,
+1-794769,2013-09-21T15:00:00+0100,Dulwich Hamlet,Canvey Island,1,0,Champion Hill Stadium,51.461170197,-0.08399,571.0,90.0,The Ryman Football League - Premier Division,
+1-794783,2013-09-24T19:45:00+0100,Dulwich Hamlet,Margate,2,0,Champion Hill Stadium,51.461170197,-0.08399,466.0,90.0,The Ryman Football League - Premier Division,
+1-794766,2013-09-11T19:45:00+0100,Thamesmead Town,Dulwich Hamlet,1,3,"Bayliss Avenue, Thamesmead",51.504840851,0.129600003,202.0,90.0,The Ryman Football League - Premier Division,
+1-794749,2013-09-07T15:00:00+0100,Harrow Borough,Dulwich Hamlet,3,1,Earlsmead,51.557941437,-0.371820003,313.0,90.0,The Ryman Football League - Premier Division,
+1-794723,2013-08-26T15:00:00+0100,Grays Athletic,Dulwich Hamlet,0,0,"The Mill Field, Aveley",51.503318787,0.252079993,,90.0,The Ryman Football League - Premier Division,
+1-794733,2013-08-31T15:00:00+0100,Dulwich Hamlet,AFC Hornchurch,2,3,Champion Hill Stadium,51.461170197,-0.08399,607.0,90.0,The Ryman Football League - Premier Division,
+1-794710,2013-08-24T15:00:00+0100,Dulwich Hamlet,Carshalton Athletic,3,1,Champion Hill Stadium,51.461170197,-0.08399,492.0,90.0,The Ryman Football League - Premier Division,
+1-794693,2013-08-17T15:00:00+0100,Metropolitan Police,Dulwich Hamlet,0,0,Imber Court ,51.390369415,-0.351689994,,90.0,The Ryman Football League - Premier Division,
+1-794698,2013-08-20T19:45:00+0100,Dulwich Hamlet,Cray Wanderers,4,0,Champion Hill Stadium,51.461170197,-0.08399,479.0,90.0,The Ryman Football League - Premier Division,
+1-794671,2013-08-12T19:45:00+0100,Hendon,Dulwich Hamlet,1,2,Earlsmead,51.557941437,-0.371820003,251.0,90.0,The Ryman Football League - Premier Division,
+0-1763927,2013-08-06T19:45:00+0100,Dulwich Hamlet,Crystal Palace,1,4,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-1763932,2013-08-03T15:00:00+0100,Bromley,Dulwich Hamlet,1,2,"The Courage Stadium, Bromley",51.389728546,0.020989999,,,Friendly,
+1-794662,2013-08-10T15:00:00+0100,Dulwich Hamlet,Lowestoft Town,2,0,Champion Hill Stadium,51.461170197,-0.08399,542.0,90.0,The Ryman Football League - Premier Division,
+0-1763931,2013-07-30T19:45:00+0100,Dulwich Hamlet,Millwall XI,1,4,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-1763930,2013-07-27T15:00:00+0100,Aveley,Dulwich Hamlet,0,2,"The Mill Field, Aveley",51.503318787,0.252079993,,,Friendly,
+0-1860201,2013-07-24T19:00:00+0100,Dulwich Hamlet,Guildford City,1,1,"Rutland Walk, Catford",51.437641144,-0.031920001,,,Friendly,
+0-1763928,2013-07-23T19:00:00+0100,Dulwich Hamlet,Huddersfield Town,2,1,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-1770235,2013-07-20T15:00:00+0100,Carshalton Athletic,Dulwich,1,3,King Georges Field,51.372180939,-0.287400007,,,Cup,
+0-1770237,2013-07-21T15:00:00+0100,Kingstonian,Dulwich Hamlet,4,1,King Georges Field,51.372180939,-0.287400007,,,Cup,
+0-1808350,2013-07-17T19:30:00+0100,Holmesdale,Dulwich Hamlet,0,4,The Priory School 3G Pitch,51.373088837,0.114009999,,,Friendly,
+0-1763929,2013-07-16T19:30:00+0100,Beckenham Town,Dulwich Hamlet,3,6,Eden Park Avenue,51.392478943,-0.028750001,,,Friendly,
+0-1763926,2013-07-09T19:45:00+0100,Dulwich Hamlet,Dagenham and Redbridge,2,1,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-1721952,2013-05-06T15:00:00+0100,Dulwich Hamlet,Dulwich Village,2,2,Dulwich Hamlet,,,,,Friendly,
+2-11450,2013-04-09T19:30:00+0100,Concord Rangers,Dulwich Hamlet,3,2,Concord Rangers,,,,,Isthmian League Cup 12-13,
+1-533715,2013-04-27T15:00:00+0100,Dulwich Hamlet,Burgess Hill Town,1,1,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533551,2013-04-16T19:45:00+0100,Leatherhead,Dulwich Hamlet,1,0,Leatherhead,,,,,The Ryman Football League - South Division,
+1-533475,2013-04-23T19:45:00+0100,Dulwich Hamlet,Crawley Down Gatwick,3,1,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533706,2013-04-20T15:00:00+0100,Herne Bay,Dulwich Hamlet,1,3,Herne Bay,,,,,The Ryman Football League - South Division,
+1-533703,2013-04-13T15:00:00+0100,Dulwich Hamlet,Walton Casuals,5,0,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533684,2013-04-06T15:00:00+0100,Faversham Town,Dulwich Hamlet,0,2,Faversham Town,,,,,The Ryman Football League - South Division,
+1-533671,2013-04-01T15:00:00+0100,Dulwich Hamlet,Chipstead,2,1,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533661,2013-03-30T15:00:00+0000,Tooting & Mitcham,Dulwich Hamlet,0,2,Tooting & Mitcham,,,,,The Ryman Football League - South Division,
+1-533545,2013-03-26T19:45:00+0000,Dulwich Hamlet,Maidstone United,1,1,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533658,2013-03-23T15:00:00+0000,Dulwich Hamlet,Whitstable Town,3,0,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+0-1665252,2013-03-14T19:45:00+0000,Dulwich Hamlet,Kingstonian,2,4,Dulwich Hamlet,,,,,Cup,
+1-533564,2013-03-19T19:45:00+0000,Horsham,Dulwich Hamlet,1,4,Horsham,,,,,The Ryman Football League - South Division,
+1-533639,2013-03-16T15:00:00+0000,Hythe Town,Dulwich Hamlet,1,0,Hythe Town,,,,,The Ryman Football League - South Division,
+1-533633,2013-03-09T15:00:00+0000,Dulwich Hamlet,Sittingbourne,3,1,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533465,2013-03-05T19:45:00+0000,Merstham,Dulwich Hamlet,3,1,Merstham,,,,,The Ryman Football League - South Division,
+1-533617,2013-03-02T15:00:00+0000,Ramsgate,Dulwich Hamlet,0,3,Ramsgate,,,,,The Ryman Football League - South Division,
+1-533611,2013-02-26T19:45:00+0000,Dulwich Hamlet,Walton & Hersham,3,0,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+2-10814,2013-02-19T19:45:00+0000,Dulwich Hamlet,Thamesmead Town,1,1,Dulwich Hamlet,,,,,Isthmian League Cup 12-13,
+1-533595,2013-02-23T15:00:00+0000,Eastbourne Town,Dulwich Hamlet,2,0,Eastbourne Town,,,,,The Ryman Football League - South Division,
+1-533591,2013-02-16T15:00:00+0000,Dulwich Hamlet,Three Bridges,2,0,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533576,2013-02-09T15:00:00+0000,Dulwich Hamlet,Merstham,4,1,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+2-10788,2013-02-05T19:45:00+0000,Dulwich Hamlet,Kingstonian,4,1,Dulwich Hamlet,,,,,Isthmian League Cup 12-13,
+2-10111,2013-01-15T19:45:00+0000,Dulwich Hamlet,Wealdstone,1,0,Dulwich Hamlet,,,,,Isthmian League Cup 12-13,
+0-1554397,2013-01-08T19:45:00+0000,Dulwich Hamlet,Corinthian-Casuals,4,1,Dulwich Hamlet,,,109.0,90.0,Cup,
+1-533529,2013-01-12T15:00:00+0000,Folkestone Invicta,Dulwich Hamlet,0,2,Folkestone Invicta,,,,,The Ryman Football League - South Division,
+1-533519,2013-01-05T15:00:00+0000,Dulwich Hamlet,Corinthian-Casuals,3,0,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533513,2013-01-01T15:00:00+0000,Dulwich Hamlet,Tooting & Mitcham,2,2,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533496,2012-12-29T15:00:00+0000,Worthing,Dulwich Hamlet,1,4,Worthing,,,,,The Ryman Football League - South Division,
+0-1528213,2012-12-11T19:45:00+0000,Dulwich Hamlet,Corinthian-Casuals,P,P,Dulwich Hamlet,,,,,Cup,
+1-533485,2012-12-26T15:00:00+0000,Chipstead,Dulwich Hamlet,0,1,Chipstead,,,,,The Ryman Football League - South Division,
+1-533452,2012-12-08T15:00:00+0000,Dulwich Hamlet,Horsham,4,0,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533443,2012-12-01T15:00:00+0000,Dulwich Hamlet,Eastbourne Town,4,2,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533430,2012-11-24T15:00:00+0000,Three Bridges,Dulwich Hamlet,1,2,Three Bridges,,,,,The Ryman Football League - South Division,
+2-8973,2012-11-20T19:45:00+0000,Dulwich Hamlet,Herne Bay,5,1,Dulwich Hamlet,,,,,Isthmian League Cup 12-13,
+1-533409,2012-11-10T15:00:00+0000,Burgess Hill Town,Dulwich Hamlet,3,3,Burgess Hill Town,,,,,The Ryman Football League - South Division,
+0-1466006,2012-11-06T19:45:00+0000,Dulwich Hamlet,Erith Town,5,0,Dulwich Hamlet,,,69.0,90.0,Cup,
+1-533422,2012-11-17T15:00:00+0000,Dulwich Hamlet,Herne Bay,2,1,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533398,2012-11-03T15:00:00+0000,Walton Casuals,Dulwich Hamlet,0,2,Walton Casuals,,,,,The Ryman Football League - South Division,
+1-533388,2012-10-27T15:00:00+0100,Dulwich Hamlet,Faversham Town,1,1,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533333,2012-10-23T19:45:00+0100,Whitstable Town,Dulwich Hamlet,1,2,Whitstable Town,,,,,The Ryman Football League - South Division,
+1-533325,2012-10-30T19:45:00+0000,Dulwich Hamlet,Hythe Town,0,2,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+1-533379,2012-10-20T15:00:00+0100,Dulwich Hamlet,Leatherhead,3,1,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+2-7038,2012-10-17T19:45:00+0100,Eastbourne Town,Dulwich Hamlet,1,2,Eastbourne Town,,,,,Isthmian League Cup 12-13,
+1-533355,2012-10-09T19:45:00+0100,Corinthian-Casuals,Dulwich Hamlet,1,0,Corinthian-Casuals,,,,,The Ryman Football League - South Division,
+1-533364,2012-10-13T15:00:00+0100,Maidstone United,Dulwich Hamlet,5,0,Maidstone United,,,,,The Ryman Football League - South Division,
+1-533346,2012-10-06T15:00:00+0100,Dulwich Hamlet,Folkestone Invicta,2,0,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+2-6821,2012-09-15T15:00:00+0100,Romford,Dulwich Hamlet,3,1,Romford,,,,,FA Trophy 12-13,
+2-7774,2012-09-22T15:00:00+0100,Arlesey Town,Dulwich Hamlet,1,0,Arlesey Town,,,,,The FA Cup 12-13,
+2-7685,2012-09-11T19:45:00+0100,Dulwich Hamlet,Godalming Town,2,2,Dulwich Hamlet,,,,,The FA Cup 12-13,
+1-533309,2012-09-25T19:45:00+0100,Sittingbourne,Dulwich Hamlet,3,1,Sittingbourne,,,,,The Ryman Football League - South Division,
+2-7544,2012-09-09T14:00:00+0100,Godalming Town,Dulwich Hamlet,2,2,Godalming Town,,,,,The FA Cup 12-13,
+1-533307,2012-09-01T15:00:00+0100,Dulwich Hamlet,Worthing,3,0,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+2-6962,2012-08-25T15:00:00+0100,Dulwich Hamlet,Hythe Town,1,0,Dulwich Hamlet,,,,,The FA Cup 12-13,
+1-533287,2012-08-27T15:00:00+0100,Crawley Down Gatwick,Dulwich Hamlet,3,1,Crawley Down Gatwick,,,,,The Ryman Football League - South Division,
+1-533276,2012-08-21T19:45:00+0100,Walton & Hersham,Dulwich Hamlet,0,4,Walton & Hersham,,,,,The Ryman Football League - South Division,
+0-1288614,2012-08-11T15:00:00+0100,Lowestoft Town,Dulwich Hamlet,2,0,"Crown Meadow, Lowestoft Town FC",52.480190277,1.74763,,90.0,Pre-season,
+1-533269,2012-08-18T15:00:00+0100,Dulwich Hamlet,Ramsgate,3,0,Dulwich Hamlet,,,,,The Ryman Football League - South Division,
+0-3399509,2012-08-05T14:00:00+0100,Dulwich Hamlet Football Club,RFC Temploux-Suarlée,10,0,Champion Hill Stadium,51.461170197,-0.08399,,,Friendly,
+0-1456710,2012-07-31T15:00:00+0100,Dulwich Hamlet,Bromley,0,0,Dulwich Hamlet,,,,,Friendly,
+0-1456783,2012-07-28T15:00:00+0100,Thamesmead Town,Dulwich Hamlet,0,5,Thamesmead Town,,,,,Friendly,
+0-1456741,2012-07-21T15:00:00+0100,Dulwich Hamlet,Kingstonian,0,3,Dulwich Hamlet,,,,,Cup,
+0-1456723,2012-07-24T19:45:00+0100,Dulwich Hamlet,Crystal Palace,0,3,Dulwich Hamlet,,,,,Friendly,
+0-1308086,2012-07-25T19:45:00+0100,Holmesdale,Dulwich Hamlet,1,2,Holmesdale,,,,,Friendly,
+0-1308084,2012-06-25T19:45:00+0100,Holmesdale,Dulwich Hamlet,,,Holmesdale,,,,,Friendly,
+1-330438,2012-04-28T00:00:00+0100,Burgess Hill Town,Dulwich Hamlet,1,0,Burgess Hill Town,,,,,The Ryman Football League - Division One South,
+1-330418,2012-04-14T00:00:00+0100,Dulwich Hamlet,Whitehawk,0,2,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330432,2012-04-21T00:00:00+0100,Dulwich Hamlet,Faversham Town,3,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330396,2012-04-07T00:00:00+0100,Dulwich Hamlet,Chipstead,3,0,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330391,2012-03-31T00:00:00+0100,Whitstable Town,Dulwich Hamlet,1,2,Whitstable Town,,,,,The Ryman Football League - Division One South,
+1-460167,2012-03-13T19:45:00+0000,Dulwich Hamlet,Walton & Hersham,0,0,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330374,2012-03-24T00:00:00+0000,Dulwich Hamlet,Sittingbourne,2,0,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330370,2012-03-17T00:00:00+0000,Whyteleafe,Dulwich Hamlet,0,2,Whyteleafe,,,,,The Ryman Football League - Division One South,
+1-330354,2012-03-10T00:00:00+0000,Folkestone Invicta,Dulwich Hamlet,1,3,Folkestone Invicta,,,,,The Ryman Football League - Division One South,
+1-330341,2012-03-03T00:00:00+0000,Dulwich Hamlet,Worthing,3,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-452871,2012-02-28T19:45:00+0000,Ramsgate,Dulwich Hamlet,0,1,Ramsgate,,,,,The Ryman Football League - Division One South,
+1-330335,2012-02-25T00:00:00+0000,Walton Casuals,Dulwich Hamlet,0,2,Walton Casuals,,,,,The Ryman Football League - Division One South,
+1-448676,2012-02-21T19:45:00+0000,Godalming Town,Dulwich Hamlet,2,2,Godalming Town,,,,,The Ryman Football League - Division One South,
+1-330319,2012-02-18T00:00:00+0000,Dulwich Hamlet,Maidstone United,0,0,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330310,2012-02-11T00:00:00+0000,Dulwich Hamlet,Walton & Hersham,,,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330280,2012-01-21T00:00:00+0000,Merstham,Dulwich Hamlet,0,3,Merstham,,,,,The Ryman Football League - Division One South,
+1-330286,2012-01-28T00:00:00+0000,Dulwich Hamlet,Godalming Town,0,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330264,2012-01-14T00:00:00+0000,Dulwich Hamlet,Bognor Regis Town,0,0,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330255,2012-01-07T00:00:00+0000,Eastbourne Town,Dulwich Hamlet,1,3,Eastbourne Town,,,,,The Ryman Football League - Division One South,
+1-330241,2012-01-02T00:00:00+0000,Corinthian Casuals,Dulwich Hamlet,1,1,Corinthian Casuals,,,,,The Ryman Football League - Division One South,
+1-330231,2011-12-31T00:00:00+0000,Dulwich Hamlet,Crawley Down,1,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330211,2011-12-17T00:00:00+0000,Hythe Town,Dulwich Hamlet,1,0,Hythe Town,,,,,The Ryman Football League - Division One South,
+1-330197,2011-12-10T00:00:00+0000,Faversham Town,Dulwich Hamlet,0,3,Faversham Town,,,,,The Ryman Football League - Division One South,
+1-330190,2011-12-03T00:00:00+0000,Dulwich Hamlet,Burgess Hill Town,2,0,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-423129,2011-11-29T19:45:00+0000,Dulwich Hamlet,Folkestone Invicta,5,2,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330181,2011-11-26T00:00:00+0000,Walton & Hersham,Dulwich Hamlet,0,3,Walton & Hersham,,,,,The Ryman Football League - Division One South,
+1-330167,2011-11-19T00:00:00+0000,Dulwich Hamlet,Ramsgate,1,0,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330162,2011-11-12T00:00:00+0000,Worthing,Dulwich Hamlet,1,0,Worthing,,,,,The Ryman Football League - Division One South,
+1-415603,2011-11-01T12:00:00+0000,Dulwich Hamlet,Eastbourne Town,2,0,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-416020,2011-11-05T12:00:00+0000,Dulwich Hamlet,Walton Casuals,3,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330136,2011-10-29T00:00:00+0100,Maidstone United,Dulwich Hamlet,2,0,Maidstone United,,,,,The Ryman Football League - Division One South,
+1-405056,2011-10-11T19:45:00+0100,Dulwich Hamlet,Hythe Town,1,0,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330099,2011-10-04T00:00:00+0100,Dulwich Hamlet,Merstham,3,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330071,2011-09-24T00:00:00+0100,Whitehawk,Dulwich Hamlet,1,1,Whitehawk,,,,,The Ryman Football League - Division One South,
+1-330075,2011-09-27T00:00:00+0100,Bognor Regis Town,Dulwich Hamlet,2,2,Bognor Regis Town,,,,,The Ryman Football League - Division One South,
+1-330031,2011-09-10T00:00:00+0100,Chipstead,Dulwich Hamlet,1,3,Chipstead,,,,,The Ryman Football League - Division One South,
+1-330044,2011-09-13T00:00:00+0100,Dulwich Hamlet,Whitstable Town,4,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330022,2011-08-29T00:00:00+0100,Dulwich Hamlet,Corinthian Casuals,3,0,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-330014,2011-08-27T00:00:00+0100,Sittingbourne,Dulwich Hamlet,0,1,Sittingbourne,,,,,The Ryman Football League - Division One South,
+1-330000,2011-08-23T00:00:00+0100,Crawley Down,Dulwich Hamlet,0,4,Crawley Down,,,,,The Ryman Football League - Division One South,
+1-329989,2011-08-20T00:00:00+0100,Dulwich Hamlet,Whyteleafe,2,0,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-174823,2011-04-09T00:00:00+0100,Dulwich Hamlet,Worthing,,,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174870,2011-04-30T00:00:00+0100,Walton & Hersham,Dulwich Hamlet,,,Walton & Hersham,,,,,Ryman League - Division 1 South,
+1-174842,2011-04-23T00:00:00+0100,Burgess Hill Town,Dulwich Hamlet,,,Burgess Hill Town,,,,,Ryman League - Division 1 South,
+1-174833,2011-04-16T00:00:00+0100,Dulwich Hamlet,Chatham Town,,,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174811,2011-04-02T00:00:00+0100,Eastbourne Town,Dulwich Hamlet,,,Eastbourne Town,,,,,Ryman League - Division 1 South,
+1-174855,2011-04-25T00:00:00+0100,Dulwich Hamlet,Whyteleafe,,,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174801,2011-03-26T00:00:00+0000,Dulwich Hamlet,Fleet Town,,,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174772,2011-03-05T00:00:00+0000,Ramsgate,Dulwich Hamlet,,,Ramsgate,,,,,Ryman League - Division 1 South,
+1-174779,2011-03-12T00:00:00+0000,Dulwich Hamlet,Chipstead,,,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174791,2011-03-19T00:00:00+0000,Horsham YMCA,Dulwich Hamlet,,,Horsham YMCA,,,,,Ryman League - Division 1 South,
+1-174757,2011-02-26T00:00:00+0000,Dulwich Hamlet,Leatherhead,,,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174752,2011-02-19T00:00:00+0000,Whitehawk,Dulwich Hamlet,3,1,Whitehawk,,,,,Ryman League - Division 1 South,
+1-174735,2011-02-12T00:00:00+0000,Dulwich Hamlet,Walton Casuals,1,2,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174727,2011-02-05T00:00:00+0000,Merstham,Dulwich Hamlet,2,3,Merstham,,,,,Ryman League - Division 1 South,
+1-174709,2011-01-22T00:00:00+0000,Worthing,Dulwich Hamlet,1,4,Worthing,,,,,Ryman League - Division 1 South,
+1-174713,2011-01-29T00:00:00+0000,Dulwich Hamlet,Eastbourne Town,,,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174668,2011-01-01T00:00:00+0000,Dulwich Hamlet,Metropolitan Police,,,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174685,2011-01-08T00:00:00+0000,Whitstable Town,Dulwich Hamlet,0,1,Whitstable Town,,,,,Ryman League - Division 1 South,
+1-174690,2011-01-15T00:00:00+0000,Dulwich Hamlet,Sittingbourne,3,0,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174622,2010-12-04T00:00:00+0000,Chipstead,Dulwich Hamlet,,,Chipstead,,,,,Ryman League - Division 1 South,
+1-174636,2010-12-11T00:00:00+0000,Fleet Town,Dulwich Hamlet,,,Fleet Town,,,,,Ryman League - Division 1 South,
+1-174647,2010-12-18T00:00:00+0000,Dulwich Hamlet,Horsham YMCA,,,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174664,2010-12-27T00:00:00+0000,Whyteleafe,Dulwich Hamlet,,,Whyteleafe,,,,,Ryman League - Division 1 South,
+1-174614,2010-11-27T00:00:00+0000,Dulwich Hamlet,Ramsgate,,,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174603,2010-11-23T00:00:00+0000,Dulwich Hamlet,Faversham Town,2,2,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174594,2010-11-20T00:00:00+0000,Godalming Town,Dulwich Hamlet,3,5,Godalming Town,,,,,Ryman League - Division 1 South,
+1-174580,2010-11-13T00:00:00+0000,Dulwich Hamlet,Bognor Regis Town,1,2,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174569,2010-11-09T00:00:00+0000,Corinthian Casuals,Dulwich Hamlet,3,1,Corinthian Casuals,,,,,Ryman League - Division 1 South,
+1-174559,2010-11-06T00:00:00+0000,Dulwich Hamlet,Whitehawk,0,1,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174512,2010-10-09T00:00:00+0100,Bognor Regis Town,Dulwich Hamlet,2,0,Bognor Regis Town,,,,,Ryman League - Division 1 South,
+1-174526,2010-10-23T00:00:00+0100,Dulwich Hamlet,Merstham,0,1,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174534,2010-10-25T00:00:00+0100,Walton Casuals,Dulwich Hamlet,2,2,Walton Casuals,,,,,Ryman League - Division 1 South,
+1-174550,2010-10-30T00:00:00+0100,Leatherhead,Dulwich Hamlet,,,Leatherhead,,,,,Ryman League - Division 1 South,
+1-174482,2010-09-21T00:00:00+0100,Faversham Town,Dulwich Hamlet,1,2,Faversham Town,,,,,Ryman League - Division 1 South,
+1-174492,2010-09-25T00:00:00+0100,Dulwich Hamlet,Godalming Town,4,0,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174470,2010-09-18T00:00:00+0100,Dulwich Hamlet,Walton & Hersham,2,0,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174504,2010-09-28T00:00:00+0100,Dulwich Hamlet,Corinthian Casuals,3,1,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174458,2010-09-07T00:00:00+0100,Chatham Town,Dulwich Hamlet,3,2,Chatham Town,,,,,Ryman League - Division 1 South,
+1-174448,2010-09-04T00:00:00+0100,Dulwich Hamlet,Burgess Hill Town,1,2,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174427,2010-08-24T00:00:00+0100,Dulwich Hamlet,Whitstable Town,2,0,Dulwich Hamlet,,,,,Ryman League - Division 1 South,
+1-174439,2010-08-30T00:00:00+0100,Metropolitan Police,Dulwich Hamlet,4,0,Metropolitan Police,,,,,Ryman League - Division 1 South,
+1-174418,2010-08-21T00:00:00+0100,Sittingbourne,Dulwich Hamlet,2,2,Sittingbourne,,,,,Ryman League - Division 1 South,
+1-136584,2010-04-13T00:00:00+0100,Dulwich Hamlet,Fleet Town,1,0,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136585,2010-04-10T00:00:00+0100,Dulwich Hamlet,Horsham YMCA,2,2,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136583,2010-04-17T00:00:00+0100,Dulwich Hamlet,Chipstead,1,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136797,2010-04-24T00:00:00+0100,Walton & Hersham,Dulwich Hamlet,0,2,Walton & Hersham,,,,,The Ryman Football League - Division One South,
+1-136549,2010-04-05T00:00:00+0100,Corinthian Casuals,Dulwich Hamlet,1,3,Corinthian Casuals,,,,,The Ryman Football League - Division One South,
+1-136586,2010-04-03T00:00:00+0100,Dulwich Hamlet,Merstham,3,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136561,2010-03-29T00:00:00+0100,Croydon Athletic,Dulwich Hamlet,2,0,Croydon Athletic,,,,,The Ryman Football League - Division One South,
+1-136697,2010-03-27T00:00:00+0000,Leatherhead,Dulwich Hamlet,6,1,Leatherhead,,,,,The Ryman Football League - Division One South,
+1-136660,2010-03-23T00:00:00+0000,Godalming Town,Dulwich Hamlet,2,0,Godalming Town,,,,,The Ryman Football League - Division One South,
+1-136619,2010-03-18T00:00:00+0000,Fleet Town,Dulwich Hamlet,0,1,Fleet Town,,,,,The Ryman Football League - Division One South,
+1-136486,2010-03-13T00:00:00+0000,Burgess Hill Town,Dulwich Hamlet,1,0,Burgess Hill Town,,,,,The Ryman Football League - Division One South,
+1-136580,2010-03-16T00:00:00+0000,Dulwich Hamlet,Croydon Athletic,1,3,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136582,2010-03-02T00:00:00+0000,Dulwich Hamlet,Folkestone Invicta,0,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136581,2010-03-06T00:00:00+0000,Dulwich Hamlet,Sittingbourne,0,2,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136502,2010-02-06T00:00:00+0000,Chatham Town,Dulwich Hamlet,0,2,Chatham Town,,,,,The Ryman Football League - Division One South,
+1-136578,2010-02-13T00:00:00+0000,Dulwich Hamlet,Ashford Town (Kent),0,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136732,2010-02-20T00:00:00+0000,Metropolitan Police,Dulwich Hamlet,4,0,Metropolitan Police,,,,,The Ryman Football League - Division One South,
+1-136579,2010-02-02T00:00:00+0000,Dulwich Hamlet,Corinthian Casuals,0,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136577,2009-12-05T00:00:00+0000,Dulwich Hamlet,Whitstable Town,4,2,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136715,2009-12-12T00:00:00+0000,Merstham,Dulwich Hamlet,1,1,Merstham,,,,,The Ryman Football League - Division One South,
+1-136845,2009-11-28T00:00:00+0000,Whyteleafe,Dulwich Hamlet,1,4,Whyteleafe,,,,,The Ryman Football League - Division One South,
+1-136592,2009-11-21T00:00:00+0000,Eastbourne Town,Dulwich Hamlet,2,0,Eastbourne Town,,,,,The Ryman Football League - Division One South,
+1-136769,2009-11-17T00:00:00+0000,Sittingbourne,Dulwich Hamlet,1,2,Sittingbourne,,,,,The Ryman Football League - Division One South,
+1-136576,2009-11-07T00:00:00+0000,Dulwich Hamlet,Walton & Hersham,0,3,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136575,2009-11-24T00:00:00+0000,Dulwich Hamlet,Burgess Hill Town,0,2,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136453,2009-10-24T00:00:00+0100,Ashford Town (Kent),Dulwich Hamlet,2,2,Ashford Town (Kent),,,,,The Ryman Football League - Division One South,
+1-136572,2009-10-27T00:00:00+0000,Dulwich Hamlet,Metropolitan Police,1,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136573,2009-10-17T00:00:00+0100,Dulwich Hamlet,Eastbourne Town,1,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136804,2009-10-12T00:00:00+0100,Walton Casuals,Dulwich Hamlet,2,2,Walton Casuals,,,,,The Ryman Football League - Division One South,
+1-136574,2009-10-10T00:00:00+0100,Dulwich Hamlet,Chatham Town,3,3,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136744,2009-09-26T00:00:00+0100,Ramsgate,Dulwich Hamlet,1,3,Ramsgate,,,,,The Ryman Football League - Division One South,
+1-136570,2009-09-22T00:00:00+0100,Dulwich Hamlet,Whyteleafe,0,2,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136822,2009-09-05T00:00:00+0100,Whitstable Town,Dulwich Hamlet,1,4,Whitstable Town,,,,,The Ryman Football League - Division One South,
+1-136571,2009-09-19T00:00:00+0100,Dulwich Hamlet,Worthing,0,2,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136569,2009-08-18T00:00:00+0100,Dulwich Hamlet,Godalming Town,1,3,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-136627,2009-08-15T00:00:00+0100,Folkestone Invicta,Dulwich Hamlet,0,0,Folkestone Invicta,,,,,The Ryman Football League - Division One South,
+1-136667,2009-08-25T00:00:00+0100,Horsham YMCA,Dulwich Hamlet,1,3,Horsham YMCA,,,,,The Ryman Football League - Division One South,
+1-136568,2009-08-22T00:00:00+0100,Dulwich Hamlet,Leatherhead,1,1,Dulwich Hamlet,,,,,The Ryman Football League - Division One South,
+1-29976,2009-04-18T15:00:00+0100,Kingstonian,Dulwich Hamlet,,,Kingstonian,,,,,Ryman Football League - Ryman Division One South,
+1-29942,2009-04-04T15:00:00+0100,Dulwich Hamlet,Crowborough Athletic,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29966,2009-04-13T15:00:00+0100,Leatherhead,Dulwich Hamlet,,,Leatherhead,,,,,Ryman Football League - Ryman Division One South,
+1-29987,2009-04-25T15:00:00+0100,Dulwich Hamlet,Fleet Town,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29954,2009-04-11T15:00:00+0100,Dulwich Hamlet,Folkestone Invicta,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29913,2009-03-14T15:00:00+0000,Walton & Hersham,Dulwich Hamlet,,,Walton & Hersham,,,,,Ryman Football League - Ryman Division One South,
+1-29929,2009-03-28T15:00:00+0000,Croydon Athletic,Dulwich Hamlet,,,Croydon Athletic,,,,,Ryman Football League - Ryman Division One South,
+1-29920,2009-03-21T15:00:00+0000,Dulwich Hamlet,Worthing,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29903,2009-03-07T15:00:00+0000,Whitstable Town,Dulwich Hamlet,,,Whitstable Town,,,,,Ryman Football League - Ryman Division One South,
+1-29854,2009-02-07T15:00:00+0000,Dulwich Hamlet,Sittingbourne,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29887,2009-02-28T15:00:00+0000,Dulwich Hamlet,Burgess Hill Town,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29865,2009-02-14T15:00:00+0000,Dulwich Hamlet,Godalming Town,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29874,2009-02-21T15:00:00+0000,Chipstead,Dulwich Hamlet,,,Chipstead,,,,,Ryman Football League - Ryman Division One South,
+1-29803,2009-01-03T15:00:00+0000,Metropolitan Police,Dulwich Hamlet,,,Metropolitan Police,,,,,Ryman Football League - Ryman Division One South,
+1-29811,2009-01-10T15:00:00+0000,Dulwich Hamlet,Merstham,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29832,2009-01-24T15:00:00+0000,Dulwich Hamlet,Ashford Town,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29848,2009-01-31T15:00:00+0000,Whyteleafe,Dulwich Hamlet,,,Whyteleafe,,,,,Ryman Football League - Ryman Division One South,
+1-29819,2009-01-17T15:00:00+0000,Cray Wanderers,Dulwich Hamlet,,,Cray Wanderers,,,,,Ryman Football League - Ryman Division One South,
+1-29767,2008-12-13T15:00:00+0000,Dulwich Hamlet,Walton Casuals,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29775,2008-12-20T15:00:00+0000,Eastbourne Town,Dulwich Hamlet,,,Eastbourne Town,,,,,Ryman Football League - Ryman Division One South,
+1-29752,2008-12-09T19:45:00+0000,Corinthian-Casuals,Dulwich Hamlet,,,Corinthian-Casuals,,,,,Ryman Football League - Ryman Division One South,
+1-29789,2008-12-27T15:00:00+0000,Dulwich Hamlet,Leatherhead,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29745,2008-12-06T15:00:00+0000,Dulwich Hamlet,Kingstonian,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29708,2008-11-15T15:00:00+0000,Crowborough Athletic,Dulwich Hamlet,,,Crowborough Athletic,,,,,Ryman Football League - Ryman Division One South,
+1-29722,2008-11-22T19:45:00+0000,Dulwich Hamlet,Walton & Hersham,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29732,2008-11-29T15:00:00+0000,Fleet Town,Dulwich Hamlet,,,Fleet Town,,,,,Ryman Football League - Ryman Division One South,
+1-29695,2008-11-01T15:00:00+0000,Worthing,Dulwich Hamlet,,,Worthing,,,,,Ryman Football League - Ryman Division One South,
+1-29700,2008-11-08T15:00:00+0000,Dulwich Hamlet,Croydon Athletic,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29647,2008-10-11T15:00:00+0100,Dulwich Hamlet,Chipstead,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29659,2008-10-14T19:45:00+0100,Godalming Town,Dulwich Hamlet,,,Godalming Town,,,,,Ryman Football League - Ryman Division One South,
+1-29679,2008-10-28T19:45:00+0000,Dulwich Hamlet,Whitstable Town,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29665,2008-10-25T15:00:00+0100,Burgess Hill Town,Dulwich Hamlet,,,Burgess Hill Town,,,,,Ryman Football League - Ryman Division One South,
+1-29625,2008-09-27T15:00:00+0100,Dulwich Hamlet,Whyteleafe,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29632,2008-09-29T19:45:00+0100,Sittingbourne,Dulwich Hamlet,,,Sittingbourne,,,,,Ryman Football League - Ryman Division One South,
+1-29594,2008-09-09T19:45:00+0100,Dulwich Hamlet,Corinthian-Casuals,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29615,2008-09-23T19:45:00+0100,Dulwich Hamlet,Cray Wanderers,,,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29580,2008-09-06T15:00:00+0100,Folkestone Invicta,Dulwich Hamlet,,,Folkestone Invicta,,,,,Ryman Football League - Ryman Division One South,
+1-29599,2008-09-20T15:00:00+0100,Ashford Town,Dulwich Hamlet,,,Ashford Town,,,,,Ryman Football League - Ryman Division One South,
+1-29575,2008-08-26T19:45:00+0100,Dulwich Hamlet,Metropolitan Police,1,1,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,
+1-29562,2008-08-23T15:00:00+0100,Merstham,Dulwich Hamlet,1,4,Merstham,,,,,Ryman Football League - Ryman Division One South,
+1-29552,2008-08-18T19:45:00+0100,Walton Casuals,Dulwich Hamlet,1,0,Walton Casuals,,,,,Ryman Football League - Ryman Division One South,
+1-29538,2008-08-16T15:00:00+0100,Dulwich Hamlet,Eastbourne Town,2,1,Dulwich Hamlet,,,,,Ryman Football League - Ryman Division One South,

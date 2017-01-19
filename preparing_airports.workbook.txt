@@ -1,0 +1,103 @@
+# We have a global airport database in csv 
+# Download it from http://www.partow.net/miscellaneous/airportdatabase/
+
+# Then:
+echo "ICAO_Code,IATA_Code,Airport_Name,Airport_Name_Short,Location,Latitude_Degrees,Latitude_Minutes,Latitude_Seconds,Latitude_Direction,Longitude_Degrees,Longitude_Minutes,Longitude_Seconds,Longitude_Direction,Altitude" > airports.csv
+cat GlobalAirportDatabase.txt | sed 's/:/,/g' >> airports.csv
+
+# ensure UNIX-readable format, if needed.
+# tr '\r' '\n' <airports.csv >airports.unix.csv
+
+# # load this in python and filter out those without lon and lat info  ----------
+
+#!/usr/bin/python 
+# or ipython
+
+import pandas as pd
+
+df = pd.read_csv("airports.csv", index_col=False)
+
+df['checksum'] = df['Latitude_Degrees']+df['Latitude_Minutes']+df['Latitude_Seconds']+df['Longitude_Degrees']+df['Longitude_Minutes']+df['Longitude_Seconds']
+
+# remove those without GIS data
+df2 = df[df.checksum != 0]
+
+df2.to_csv("airports_usable.csv", index=False, encoding='latin-1') # loadout
+
+# EOF
+
+# checking the site recognises the lookup code ----------
+# checking each is actually available on WU, and by code:
+
+#!/usr/bin/bash
+
+echo "Code,ICAO_Found" > airports_usable.code.ICAO_found.csv
+for code in `awk -F "," '{print $1}' airports_usable.csv | sort | uniq | tr '\n' ' '` ; do
+    result=$(wget -qO- "http://www.wunderground.com/history/airport/"$code"/2012/1/1/DailyHistory.html?format=1"); # this is a very small sample
+    count=`echo $result | grep -c "DateUTC"`; # results exist only when DATEUTC available
+    echo $code","$count >> airports_usable.code.ICAO_found.csv;
+done ;
+
+echo "Code,IATA_Found" > airports_usable.code.IATA_found.csv
+for code in `awk -F "," '{print $2}' airports_usable.csv | sort | uniq | tr '\n' ' '` ; do
+    result=$(wget -qO- "http://www.wunderground.com/history/airport/"$code"/2012/1/1/DailyHistory.html?format=1"); # this is a very small sample
+    count=`echo $result | grep -c "DateUTC"`; # results exist only when DATEUTC available
+    echo $code","$count >> airports_usable.code.IATA_found.csv;
+done ;
+
+
+# EOF
+
+# back in ipython:
+
+airports = pd.read_csv("data/conditions/airports_usable.csv", index_col=False)
+
+icao = pd.read_csv("data/conditions/airports_usable.code.ICAO_found.csv", index_col=False)
+
+iata = pd.read_csv("data/conditions/airports_usable.code.IATA_found.csv", index_col=False)
+
+airports['Code'] = airports['ICAO_Code']
+airports = pd.merge(airports, icao, on='Code', how='outer')
+airports['Code'] = airports['IATA_Code']
+airports = pd.merge(airports, iata, on='Code', how='outer')
+
+# filter only those where we have either
+airports = airports.ix[(airports['IATA_Found']==1) | (airports['ICAO_Found']==1)]
+
+# then identify the preferred code:
+# prefer ICAO. if no ICAO, use IATA
+def f(x):
+    if x['ICAO_Found'] == 1:
+        return x['ICAO_Code']
+    elif x['IATA_Found'] == 1:
+        return x['IATA_Code']
+
+airports['Code'] = airports.apply(f, axis=1)
+
+# unload the Code and lon and lat to the df for use with reverse_geocoder
+
+# find decimal lon and lat
+def dms2dd(d, m, s, h):
+    if (h == "N" or h == "E"):
+        modifier = 1
+    else:
+        modifier = -1
+    # find decimal coords
+    ddVal = modifier*(float(d) + float(m)/60 + float(s)/3600);
+    return ddVal
+
+def f(x):    
+    return dms2dd(d=x['Latitude_Degrees'], m=x['Latitude_Minutes'], s=x['Latitude_Seconds'], h=x['Latitude_Direction']) 
+airports['lat'] = airports.apply(f, axis=1)
+
+def f(x):    
+    return dms2dd(d=x['Longitude_Degrees'], m=x['Longitude_Minutes'], s=x['Longitude_Seconds'], h=x['Longitude_Direction'])
+airports['lon'] = airports.apply(f, axis=1)
+
+airports.to_csv("data/conditions/airports_usable.coded.csv", index=False, encoding='latin-1') # loadout
+
+# NOTE:
+# EGYC,CLF,COLTISHALL,COLTISHALL,ENGLAND is not usable due to FAA/IATA code clash.
+# EGYC does not resolve
+# CLF resolves to "Clear Sky Lodge Airport, Clear, Alaska"
+# remove manually

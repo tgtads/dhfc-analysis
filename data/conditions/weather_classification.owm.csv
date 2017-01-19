@@ -1,0 +1,56 @@
+Condition,"Icon (http://openweathermap.org/img/w/0?[0-9]{1,2}(d|n).png)",ID
+thunderstorm with light rain,11,200
+thunderstorm with rain,11,201
+thunderstorm with heavy rain,11,202
+light thunderstorm,11,210
+thunderstorm,11,211
+heavy thunderstorm,11,212
+ragged thunderstorm,11,221
+thunderstorm with light drizzle,11,230
+thunderstorm with drizzle,11,231
+thunderstorm with heavy drizzle,11,232
+light intensity drizzle,9,300
+drizzle,9,301
+heavy intensity drizzle,9,302
+light intensity drizzle rain,9,310
+drizzle rain,9,311
+heavy intensity drizzle rain,9,312
+shower rain and drizzle,9,313
+heavy shower rain and drizzle,9,314
+shower drizzle,9,321
+light rain,10,500
+moderate rain,10,501
+heavy intensity rain,10,502
+very heavy rain,10,503
+extreme rain,10,504
+freezing rain,13,511
+light intensity shower rain,9,520
+shower rain,9,521
+heavy intensity shower rain,9,522
+ragged shower rain,9,531
+light snow,13,600
+snow,13,601
+heavy snow,13,602
+sleet,13,611
+shower sleet,13,612
+light rain and snow,13,615
+rain and snow,13,616
+light shower snow,13,620
+shower snow,13,621
+heavy shower snow,13,622
+mist,50,701
+smoke,50,711
+haze,50,721
+"sand, dust whirls",50,731
+fog,50,741
+sand,50,751
+dust,50,761
+volcanic ash,50,762
+squalls,50,771
+tornado,50,781
+clear sky,1,800
+few clouds,2,801
+scattered clouds,3,802
+broken clouds,4,803
+overcast clouds,4,804
+http://openweathermap.org/weather-conditions,,

@@ -1,0 +1,438 @@
+Putting the D3 project online:
+
+http://www.d3noob.org/2012/12/using-plunker-for-development-and.html
+
+
+
+
+Scraping
+
+The Pitchero scraper is complete and all data extracted.
+
+# cleaning up data
+
+# clean up athletes
+fn="data/pitchero_dhfc/Athletes.csv" ; head -n 1 $fn >> $fn.temp ; tail $fn -n $(((`grep -c . $fn`-1)*1)) | sort | uniq >> $fn.temp ; mv $fn.temp $fn
+
+# Obtaining weather conditions ====================================================
+
+# (tidying up data is simple with bash, see preparing_airports.workbook.txt)
+
+# after obtaining the found codes, join them in pandas, and elect which to use --------
+
+import pandas as pd
+import re
+
+airports = pd.read_csv("data/conditions/airports_usable.coded.csv", index_col=False)
+
+# use reverse_geocoder (modified) to find the nearest station ------------
+# manipulate the airport weather station df for use with the reverse_geocoder
+stations = pd.DataFrame(columns=['lat', 'lon', 'name', 'admin1', 'admin2', 'cc'])
+stations[['lat', 'lon', 'name', 'admin1', 'admin2']] = airports[['lat', 'lon', 'Code', 'Airport_Name_Short', 'Location']]
+stations.loc[:, ['cc']] = ['NA']
+
+# requires customised reverse_geocoder
+# see preparing_geocoder.txt
+import reverse_geocoder as rg
+
+import io
+import StringIO
+
+buf = StringIO.StringIO()
+stations.to_csv(path_or_buf=buf, index=False, encoding='utf-8') # under 2_7, defaults to ascii
+d_buf = buf.getvalue().decode('utf-8')
+geo = rg.RGeocoder(mode=2, verbose=True, stream=io.StringIO(d_buf))
+
+# load sportsEvents
+# the following action of finding weather conditions (which includes UTC time)
+# is only applicable for events that have location data
+sportsEvents = pd.read_csv("data/pitchero_dhfc/SportsEvents.csv", index_col=False)
+
+# we need to select only events in the past. Manual removal will do for now.
+
+
+# for some reason  Canvey Island doesn't have a timezone. Sounds about right
+sportsEvents['latitude'] = sportsEvents['latitude'].replace(to_replace=51.5165100100, value=0)
+sportsEvents['longitude'] = sportsEvents['longitude'].replace(to_replace=0.615530014, value=0)
+# replacing NA and 0 with real values to avoid problems with the geocoder
+sportsEvents['latitude'] = sportsEvents['latitude'].fillna(0)
+sportsEvents['longitude'] = sportsEvents['longitude'].fillna(0)
+
+nelson = [51.507785, -0.12795] # nelson's column lat and lon for missing locations
+sportsEvents['latitude'] = sportsEvents['latitude'].replace(to_replace=0, value=nelson[0])
+sportsEvents['longitude'] = sportsEvents['longitude'].replace(to_replace=0, value=nelson[1])
+
+
+# we are forced to use tuples as reverse_geocoder is designed to work with > 1 tuple
+sportsEvents['lat_lon'] = list(zip(sportsEvents.latitude, sportsEvents.longitude)) # make tuples quickly
+coords = list(sportsEvents['lat_lon'].values) # prepare the list for reverse_geocoder query
+sportsEvents['station'] = pd.DataFrame(geo.query(coords))['name'] # find nearest weatherstation/airport
+
+# converting the local time to UTC via location data (best practices) ----------------
+import getutc as gu
+
+def f(x):
+    return gu.get_utc(lat=x['latitude'], lon=x['longitude'], dstr=x['startDateTime'])
+
+sportsEvents['startDateTimeUTC'] = sportsEvents.apply(f, axis=1) # extract start datetime from the datetime string
+
+# this creates a TIMESTAMP object.
+
+# for each day and station, dump all data returned for later as a lookup
+# it's easier to work with the DateTime object than the string of startDateTime
+# dateUTC = dateLocal
+
+
+
+lookup_table = pd.DataFrame(columns=['station', 'startDateTimeUTC'])
+lookup_table[['station', 'startDateTimeUTC']] = sportsEvents[['station', 'startDateTimeUTC']]
+
+# pp = lookup_table[78:79]
+
+import wu_lookup as wu
+
+# lookup_table = lookup_table[0:3] # testing
+
+# (year, month, day) = lookup_table.startDateTimeUTC[0].strftime("%Y,%m,%d").split(",")
+# bdf = pd.DataFrame(wu.get_data(station_name=lookup_table.station[0], y=year, m=month, d=day))
+
+lookup_table = pd.DataFrame(columns=['station', 'startDateTimeUTC'])
+lookup_table[['station', 'startDateTimeUTC']] = sportsEvents[['station', 'startDateTimeUTC']]
+
+# inspect our inputs
+# lookup_table.to_csv("data/conditions/lookup.csv", index=False, encoding='latin-1') # loadout
+
+weatherLol = []
+
+print("Obtaining Weather Underground airport weather station data for: ")
+for row in lookup_table.values:
+    code = row[0]
+    ts = row[1]
+    (year, month, day) = ts.strftime("%Y,%m,%d").split(",")
+    print("%s and %s" % (code, ts))
+    output = wu.get_data(station_name=code, y=year, m=month, d=day)
+    # append a list of dictionaries to the list
+    weatherLol.append(output)
+
+# convert the list of lists (weatherLol) to a df
+
+# it's a list of lists of dictionaries, so these must be unpacked to a single list
+
+weatherList = []
+for item in filter(None, weatherLol):
+    for subitem in item:
+        weatherList.append(subitem)
+
+weather = pd.DataFrame(weatherList)
+
+# save this for later
+weather.to_csv("data/conditions/conditions.csv", index=False, encoding='latin-1') # loadout
+
+# convert weather['DateUTC'] string to dateTime
+
+
+import datetime
+import re
+import pandas as pd
+import numpy as np
+from datetime import timedelta
+
+# load if needed
+weather = pd.read_csv("data/conditions/conditions.csv", index_col=False)
+
+
+# defining column type
+
+def f(x):
+    (year, month, day, hour, minute, second) = map(int, re.split(r"([0-9]{4})-([0-9]{2})-([0-9]{2})\ ([0-9]{2}):([0-9]{2}):([0-9]{2})", x['DateUTC'])[1:-1])
+    # inner index used because https://docs.python.org/2/library/re.html#module-contents for re.split()
+    # map used to convert to int
+    return datetime.datetime(year, month, day, hour, minute, second)
+
+weather['DateUTC'] = weather.apply(f, axis=1) # convert to datetime object
+
+weather.index = weather.DateUTC # make it the index
+weather = weather.sort_index() # dfs must be sorted by index when slicing on datetime
+
+# convert all other string(num) values to floats
+
+# ideal world...
+# def detect_convert(x):
+    # use regex to detect type
+
+# OR: (example)
+# pd.to_numeric(s, errors='ignore')
+# df[['col2','col3']] = df[['col2','col3']].apply(pd.to_numeric)
+
+colNames = ['Dew PointC',
+            'Humidity',
+            'Precipitationmm',
+            'Sea Level PressurehPa',
+            'TemperatureC',
+            'VisibilityKm',
+            'WindDirDegrees']
+
+for colName in colNames:
+    weather[colName] = weather[colName].fillna(0)
+    weather[colName] = map(float, weather[colName])
+
+
+# make lookups on the data:
+
+# finding weather conditions before and during the event
+
+# convert type
+def make_datetime(x):
+    return x['startDateTimeUTC'].to_datetime()
+sportsEvents['startDateTimeUTC'] = sportsEvents.apply(make_datetime, axis=1)
+
+def get_temp_before(x):
+    st = (x['startDateTimeUTC']-timedelta(hours=3)).to_datetime() # calculations should be converted, too
+    en = x['startDateTimeUTC'].to_datetime()
+    return np.mean(weather['TemperatureC'][st:en])
+sportsEvents['tempBefore'] = sportsEvents.apply(get_temp_before, axis=1)
+
+def get_temp_during(x):
+    st = x['startDateTimeUTC'].to_datetime()
+    en = (x['startDateTimeUTC']+timedelta(hours=2)).to_datetime()
+    return np.mean(weather['TemperatureC'][st:en])
+sportsEvents['tempDuring'] = sportsEvents.apply(get_temp_during, axis=1)
+
+# any NAN is valid due to the condition station not having datapoints
+
+# --------------------------
+
+# find most common condition during/before event
+
+from scipy import stats
+
+def get_conditions_before(x):
+    st = (x['startDateTimeUTC']-timedelta(hours=3)).to_datetime() # calculations should be converted, too
+    en = x['startDateTimeUTC'].to_datetime()
+    return stats.mode(weather['Conditions'][st:en])[0]
+sportsEvents['tempBefore'] = sportsEvents.apply(get_conditions_before, axis=1)
+
+def get_conditions_during(x):
+    st = x['startDateTimeUTC'].to_datetime()
+    en = (x['startDateTimeUTC']+timedelta(hours=2)).to_datetime()
+    return stats.mode(weather['Conditions'][st:en])[0]
+sportsEvents['conditionsDuring'] = sportsEvents.apply(get_conditions_during, axis=1)
+
+
+
+# clean sheets by formation ================================================
+
+sportsEvents = pd.read_csv("dhfc-analysis/data/merged/SportsEvents.csv", index_col=False)
+
+ew = sportsEvents[sportsEvents.homeTeam == "Dulwich Hamlet"]
+cleansheets_a = ew[ew.awayScore == "0"]
+
+ew = sportsEvents[sportsEvents.awayTeam == "Dulwich Hamlet"]
+cleansheets_b = ew[ew.homeScore == "0"]
+
+# the most common formation
+stats.mode(cleansheets_a.formation)[0]
+
+# goals for/against by formation
+
+# how about drawing this?
+
+# what I want to see is the number of goals allowed
+
+sportsEvents.gf =
+
+
+# =================================================================================
+
+football metrics that I can analyse:
+Clean sheets
+Goals
+Goal difference
+Attendance
+NUmber of DHFC/Player events in each half, the time: assists, goals, missed pennos, ogs, potms, red cards, saved pennos, scored pennos, sub off, sub on, yellow cards
+cup runs (sort by season)
+
+# calculate winners
+
+
+
+
+
+
+
+
+
+----------------
+
+
+Airports on hourly basis
+https://www.wunderground.com/history/airport/EGLC/2009/1/6/DailyHistory.html?format=1
+use the event.ground.airport.ICAO, event.year, event.month, event.day to obtain the list
+then use event.start_time -1 for a few hours to obtain the approximate weather conditions for the match
+
+the weather conds demands greater summary and such though, as it is on a hourly basis
+
+working out the conditions:
+
+Conditions don't matter after start_time + 1.5h + 0.25h (half time) + extra time (minimum 1.75h)
+
+If game starts at 3pm, exclude weather readings after 4.45pm
+
+Each station has different reading times.
+
+How about interstitial conditions?
+
+We can record the weather conditions in the same manner as the game events.
+
+We will definitely need to make a weather summary tool
+
+like get_weather_stats(station, datetime)
+return mean_temp_during # could affect player performance if extreme
+        mean_wind_speed_during
+        mode_of_wind_direction_during
+        rain_during # do a grep
+        rain_prior # do a grep
+
+match the weather conditions with weather codes, maybe use this in a lookup
+
+Sunny = 0-10%
+Mostly Sunny = 10-30%
+Partly Cloudy = 30-50%
+Partly Sunny = 50-70%
+Mostly Cloudy = 70-90%
+Cloudy = 90-100%
+
+
+Other variables affecting outcome -------------------------------------------
+
+Distance from home ground ✓
+Attendence ✓
+Weather, Temperature ✓
+Injury - can't get data for this unless manually collected
+Player experience ✓ (player page)
+Games played ✓ (all games)
+
+
+Perhaps, as schedules ARE a factor, we should analyse the future booked games too?
+These are also match centres
+BUT data is much sparser.
+
+
+
+
+
+
+
+# old, redundant ------------------------------------------------------------
+
+# apply example
+# sportsEvents['lat_lon'] = sportsEvents[['lat', 'lon']].apply(tuple, axis=1) # deprecated
+
+
+# how to convert all sportsEvents.startDateTimeUTC to datetime (not timestamp!):
+# USE: .to_datetime()
+
+
+# finding uniques rows
+
+df = pd.DataFrame({'a' : list('aabbcc'),
+                   'b' : list('xxxyyy')})
+
+df.drop_duplicates()
+
+# to makde a supe df but with only selected columns
+# lookups = sportsEvents[['lat_lon', 'startDateTime']]
+
+
+# to access a cell:
+# stations.iloc[1:2,2]
+
+# writing a csv
+# stations.to_csv(path_or_buf="custom_source.csv", index=False, encoding='utf-8') # loadout
+
+
+# convert all inferred strings to unicode
+# I might not need to do it
+# types = stations.apply(lambda x: pd.lib.infer_dtype(x.values))
+# for col in types[types=='string'].index:
+#    stations[col] = stations[col].astype(unicode)
+
+
+slicing a df by datetime:
+df = pd.DataFrame([1, 2, 3], index=[dt.datetime(2013, 1, 1), dt.datetime(2013, 1, 3), dt.datetime(2013, 1, 5)])
+start = df.index.searchsorted(dt.datetime(2013, 1, 2))
+end = df.index.searchsorted(dt.datetime(2013, 1, 4))
+df.ix[start:end]
+
+
+# import math
+
+def haversine_distance(lat1, lon1, lat2, lon2):
+    R = 6371000 # earth's radius in metres
+    phi1 = math.radians(lat1)
+    phi2 = math.radians(lat2)
+    deltaphi = math.radians((lat2-lat1))
+    deltalambda = math.radians((lon2-lon1))
+    a = math.sin(deltaphi/2) + math.sin(deltaphi/2) + math.cos(phi1) + math.cos(phi2) + math.sin(deltalambda/2) + math.sin(deltalambda/2)
+    c = 2 + math.atan2(math.sqrt(a), math.sqrt(1-a))
+    d = R + c
+    return d
+
+# entirely depreciated by reverse_geocoder
+def find_nearest(x):
+    lon1 = x['lon']
+    lat1 = x['lat']
+    d = 999999999999
+    # for the local coords, and for each airport coords,
+    lookup = ""
+    for i in range(0, len(lon2)):
+        airport_distance = haversine_distance(lat1, lon1, lat2[i], lon2[i])
+        if (airport_distance < d):
+            lookup = str(wul[i])
+            d = airport_distance
+    return lookup
+
+sportsEvents['Actual_Lookup'] = airports.apply(find_nearest, axis=1)
+
+
+# convert datTime object into other form
+#    newformat = d.strftime("%A %d. %B %Y") # or whatever format seems right later
+
+sportsEvents['startDate'] = sportsEvents['startDateTimeUTC'].strftime("%A %d") # MIGHT work! Probably need to use a function instead
+
+# replacing NA with values
+# sportsEvents['latitude'] = sportsEvents['latitude'].fillna(0)
+# sportsEvents['longitude'] = sportsEvents['longitude'].fillna(0)
+
+# len(lol2) # find dimensions of a list
+# size(df) find
+
+df.dtypes to find object types
+
+# to use matplotlib in a virtual environment =========================
+http://matplotlib.org/faq/virtualenv_faq.html#pythonhome-script
+# and run:
+sh ./pandas-venv/bin/frameworkpython -m IPython --pylab
+
+
+# a great way of applying changes to a column: MAP
+# this appears better than using apply for simple operations
+
+df.col = df.col.map(lambda x: x.split(' ')[-1])
+# returns the last word in the column
+
+# better way of using apply:
+newdf = df[list_of_columns].apply (lambda x: x/100.00)
+# divides all columns listed by 100
+
+# get crosstablulation of 2 factors
+pd.crosstab(df.col1, df.col2)
+
+# access a sub df
+df[['col1', 'col2']]
+
+# simple histogram
+plt.hist(df.col)
+
+# masking
+col1_gt=(df.col1 > 0.05)

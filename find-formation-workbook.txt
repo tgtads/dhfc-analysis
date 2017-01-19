@@ -1,0 +1,140 @@
+# finding the formation for each SportsEvent ================================
+
+# executed in iPython
+
+import pandas as pd
+import numpy as np
+import hashlib
+
+sportsEventFormations = pd.read_csv("dhfc-analysis/data/pitchero_dhfc/Formations.csv", index_col=False)
+# sportsEventFormations.cUid = map(int, sportsEventFormations.cUid) # Not needed, merge will convert type automatically
+# sportsEventFormations = sportsEventFormations.dropna()
+
+athletes = pd.read_csv("dhfc-analysis/data/pitchero_dhfc/Athletes.csv", index_col=False)
+athletes = athletes.drop_duplicates()
+
+# merge the df for richer information about the athletes in the formations
+athletePositions = pd.merge(sportsEventFormations, athletes, on='cUid', how='left')
+
+# fix the type recasting
+# athletePositions = athletePositions.dropna()
+# athletePositions.cUid = map(int, athletePositions.cUid)
+# merge the formationType with the SportsEvents
+
+# sort the SportsEvents (with full cohort and positional information) by event, lpos, then bpos
+
+# ignoring the first row (goalkeeper), map grouping to player
+
+
+# a function to make groupings based on formation ==============================
+
+# determine formation groupings
+def get_grouping(formation):
+    # https://en.wikipedia.org/wiki/Formation_(association_football)
+    dictmap = {
+        343:    [0,1,1,1,2,2,2,2,3,3,3],
+        352:    [0,1,1,1,2,2,2,2,2,3,3],
+        361:    [0,1,1,1,2,2,2,2,2,2,3],
+        433:    [0,1,1,1,1,2,2,2,3,3,3],
+        442:    [0,1,1,1,1,2,2,2,2,3,3],
+        451:    [0,1,1,1,1,2,2,2,2,2,3],
+        4132:   [0,1,1,1,1,2,2,2,2,3,3],
+        4231:   [0,1,1,1,1,2,2,2,2,2,3],
+        4321:   [0,1,1,1,1,2,2,2,2,2,3],
+        4411:   [0,1,1,1,1,2,2,2,2,3,3],
+        41212:  [0,1,1,1,1,2,2,2,2,3,3],
+        532:    [0,1,1,1,1,1,2,2,2,3,3],
+        541:    [0,1,1,1,1,1,2,2,2,2,3]
+    }
+    return dictmap.get(formation, [])
+
+
+def get_formation(evtDf):
+    formationString = "" # set up the counters
+    athleteCount = 0
+    # for each unique lpos
+    for position in evtDf.lpos.unique()[1:]: # a lpos is the row position in the formation, from the perspective of direction of play. Ignore first position (goalkeeper)
+        n = evtDf[evtDf.lpos == position].shape[0] # count entries where they have same pos
+        athleteCount += n
+        formationString += str(n)
+    if athleteCount == 10:
+        return int(formationString)
+    else:
+        return 0
+
+esap = athletePositions.drop(athletePositions.index[0:])
+
+for eUid in athletePositions.eUid.unique(): # for each unique event in the formations-athletes df
+    eventAthletePositions = athletePositions[athletePositions.eUid == eUid] # all rows w/ that event
+    # sort eventAthletePositions by lpos and bpos
+    eventAthletePositions = eventAthletePositions.sort_values(['lpos', 'bpos'])
+    formation = get_formation(eventAthletePositions)
+    # groupMap.append()
+    eventAthletePositions['formation'] = formation
+    eventAthletePositions['group'] = get_grouping(formation)
+    # for each grouping, make a hash of all members in the group, or whatever I want. Dead simple.
+    gmap = []
+    for group in eventAthletePositions.group.unique():
+        groupMembers = eventAthletePositions[eventAthletePositions.group == group]
+        bstr = ",".join(map(str, groupMembers.cUid))
+        gHash = hashlib.md5(bstr).hexdigest()
+        gmap.append({"group":group, "gHash":gHash})
+    gmap = pd.DataFrame(gmap)
+    eventAthletePositions = pd.merge(eventAthletePositions, gmap, on='group', how='left')
+    esap = esap.append(eventAthletePositions, ignore_index=True)
+
+
+# alternatively, if we are working with a simple structure we can add to a list of dictionaries and convert to a df:
+# for each:
+    # formationType.append({"eUid":eUid, "formation":formation}) # add dict to array
+# then 
+# formationType = pd.DataFrame(formationType) # convert to df
+# and later merge:
+# events = pd.read_csv("dhfc-analysis/data/pitchero_dhfc/SportsEvents.csv", index_col=False)
+# ne = pd.merge(events, formationType, on='eUid', how='left')
+
+events = pd.read_csv("dhfc-analysis/data/pitchero_dhfc/SportsEvents.csv", index_col=False)
+ne = pd.merge(events, esap, on='eUid', how='left')
+
+
+ne.formation = ne.formation.fillna(0)
+ne.group = ne.group.fillna(0)
+ne.cUid = ne.cUid.fillna(0)
+ne.formation = map(int, ne.formation)
+ne.group = map(int, ne.group)
+ne.cUid = map(int, ne.cUid)
+# convert all pointless floats to ints
+
+# I want to map to int but ignore na
+
+
+# THIS PROCESS HAS SHOWN UP A PROBLEM WITH SCRAPING: 
+# http://www.pitchero.com/clubs/dulwichhamlet/teams/56196/match-centre/1-1607198
+# OSEI SANKOFA DOES NOT APPEAR
+
+# what about making a unique hash for the group?
+
+
+ne.to_csv("dhfc-analysis/data/merged/SportsEvents.csv", index=False, encoding='latin-1') # loadout
+
+# BREAK POINT ---------------
+
+# next: allowing other types of grouping?
+
+# find formation
+# look up defined splitpoints
+
+# the simplest way to achieve this is to sort by lpos and bpos.
+# cycle through that sorted df, ignoring the first row (goalkeeper)
+# assign group number
+# check counter corresponds to a splitpoint. If so, increment group number
+# but I don't know HOW add the cUid to list and close off the list at the splitpoint.
+# a simple function might be best, such as 
+
+
+# better approach: define group numbers in order. Since splitString is manual, why not groupings?
+
+
+
+
+

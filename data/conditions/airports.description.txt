@@ -1,0 +1,14 @@
+ICAO Code: 4 character ICAO code
+IATA Code: 3 character IATA code
+Airport Name: string of varying length
+City,Town or Suburb: string of varying length
+Country: string of varying length
+Latitude Degrees: 2 ASCII characters representing one numeric value
+Latitude Minutes: 2 ASCII characters representing one numeric value
+Latitude Seconds: 2 ASCII characters representing one numeric value
+Latitude Direction: 1 ASCII character either N or S representing compass direction
+Longitude Degrees: 2 ASCII characters representing one numeric value
+Longitude Minutes: 2 ASCII characters representing one numeric value
+Longitude Seconds: 2 ASCII characters representing one numeric value
+Longitude Direction: 1 ASCII character either E or W representing compass direction
+Altitude: varying sequence of ASCII characters representing a numeric value corresponding to the airport's altitude from mean sea level (ie: "123" or "-123")

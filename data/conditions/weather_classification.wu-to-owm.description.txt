@@ -1,0 +1,2 @@
+http://openweathermap.org/img/w/0?[0-9]{1,2}(d|n).png
+http://openweathermap.org/weather-conditions
